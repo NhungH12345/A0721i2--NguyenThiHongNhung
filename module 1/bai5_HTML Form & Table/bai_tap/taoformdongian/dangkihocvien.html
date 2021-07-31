@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng kí học viên</title>
+</head>
+<body>
+<form action="dangkihocvien.html"method="post">
+    <h3>Đăng kí học viên</h3>
+     <label>Họ và tên <input type="text" name="usename"></label>
+     <br>
+     <br>
+     <label>Ngày sinh <input type="date" name="birthday"></label>
+     <br>
+     <br>
+    <label>Giới tính </label>
+         <input type="radio" name="gender"value="Nam">Nam
+     <input type="radio" name="gender"value="Nữ">Nữ
+    <br>
+    <br>
+    <label>Địa chỉ <textarea rows="4"cols="25"></textarea></label>
+    <br>
+    <br>
+    <label>Lớp </label>
+   <select>
+       <option value="-Chọn lớp-" selected>-Chọn lớp-</option>
+       <option value="1">1</option>
+       <option value="1">2</option>
+   </select>
+    <br>
+   <br>
+    <label>Email <input type="email"></label><br>
+   <br>
+    <label>Điện thoại <input type="text"name="phone"size="15"></label>
+   <br>
+   <br>
+        <input type="submit"value="Đăng kí">
+         <input type="submit"value="Nhập lại">
+</form>
+</body>
+<style>
+    body {
+        background: khaki;
+    }
+    h3{
+        background-color: cyan;
+        color: blue;
+        font-size: 30px;
+    }
+    label{
+        color: blue;
+        font-size: 20px;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+</style>
+</html>

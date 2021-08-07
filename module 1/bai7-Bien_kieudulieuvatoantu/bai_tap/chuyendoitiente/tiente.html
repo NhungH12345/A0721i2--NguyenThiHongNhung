@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8">
-    <title>Ứng dụng chuyển đổi tiền tệ </title>
-    <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
-        ul{
-            list-style: none;
-        }
-        a{
-            text-decoration: none;
-        }
-    </style>
 </head>
 <body>
-        <ul>
-            <li><a href="">HTML CSS</a></li>
-            <li><a href="">PHP MASTER</a></li>
-            <li><a href="">BOOTSTRAP AZ</a></li>
-            <li><a href="">JQUERY</a></li>
-            <li><a href="">RESPONSIVE</a></li>
-        </ul>
-    </div>
-    <div>
-    </div>
-</div>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Curency</th>
+        <th>To Currency</th>
+    </tr>
+    <tr>
+        <td><input type="text" id="A" value="1"/></td>
+        <td>
+            <select name="currency" id="F">
+                <option value="VietNam"selected>VietNam</option>
+                <option value="USD">USD</option>
+            </select>
+        </td>
+        <td>
+            <select name="currency" id="T">
+                <option value="USD"selected>USD</option>
+                <option value="VietNam">VietNam</option>
+
+            </select>
+        </td>
+        <td><input type="button" onclick="Convert()" value="Convert"/></td>
+    </tr>
+</table>
+<p id="Result">Result: </p>
+<script>
+    let Amount = document.getElementById("A");
+    let From_Currency = document.getElementById("F");
+    let To_Currency = document.getElementById("T");
+    function Convert() {
+        let Convert;
+        if (From_Currency.value == "VietNam" && To_Currency.value == "USD") {
+            Convert = parseInt(Amount.value) *5000;
+            document.getElementById("Result").innerHTML = Convert;
+        }
+        if (From_Currency.value == "USD" && To_Currency.value == "VietNam") {
+            Convert = parseInt(Amount.value) / 5000;
+            document.getElementById("Result").innerHTML = Convert;
+
+        }
+    }
+
+</script>
 
 </body>
-<
+
 </html>

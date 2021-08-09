@@ -29,18 +29,18 @@
 </table>
 <p id="Result">Result: </p>
 <script>
-    let Amount = document.getElementById("A");
-    let From_Currency = document.getElementById("F");
-    let To_Currency = document.getElementById("T");
+    let amount = document.getElementById("A");
+    let from_currency = document.getElementById("F");
+    let to_currency = document.getElementById("T");
     function Convert() {
-        let Convert;
-        if (From_Currency.value == "VietNam" && To_Currency.value == "USD") {
-            Convert = parseInt(Amount.value) *5000;
-            document.getElementById("Result").innerHTML = Convert;
+        let convert;
+        if (from_currency.value == "VietNam" && to_currency.value == "USD") {
+            convert = parseInt(amount.value) *5000;
+            document.getElementById("Result").innerHTML = convert;
         }
-        if (From_Currency.value == "USD" && To_Currency.value == "VietNam") {
-            Convert = parseInt(Amount.value) / 5000;
-            document.getElementById("Result").innerHTML = Convert;
+        if (from_currency.value == "USD" && to_currency.value == "VietNam") {
+            convert = parseInt(amount.value) / 5000;
+            document.getElementById("Result").innerHTML = convert;
 
         }
     }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input[type=checkbox] + label {
+            display: inline-block;
+            background-color: #DB574D;
+            color: white;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            height: 30px;
+            line-height: 30px;
+            position: relative;
+            text-transform: uppercase;
+            width: 80px;
+        }
+
+        input[type=checkbox] + label,
+        input[type=checkbox] + label i {
+            -webkit-transition: all 200ms ease;
+            -moz-transition: all 200ms ease;
+            -o-transition: all 200ms ease;
+            transition: all 200ms ease;
+        }
+
+        input[type=checkbox]:checked + label {
+            background-color: #67B04F;
+        }
+
+        input[type=checkbox] + label:before,
+        input[type=checkbox] + label:after,
+        input[type=checkbox] + label i {
+            display: inline-block;
+            height: 100%;
+            text-align: center;
+        }
+
+        input[type=checkbox] + label:before {
+            content: attr(data-text-true);
+        }
+
+        input[type=checkbox] + label:after {
+            content: attr(data-text-false);
+        }
+
+
+    </style>
+</head>
+<body>
+<form>
+    <input type="checkbox" id="good" onclick="check(1)"/><label for="good">GOOD</label>
+    <br>
+    <input type="checkbox" id="cheap" onclick="check(2)"/><label for="good">CHEAP</label>
+    <br>
+    <input type="checkbox" id="fast" onclick="check(3)"/><label for="good">FAST</label>
+    <br>
+    <script>
+        let good = document.getElementById('good');
+        let cheap = document.getElementById('cheap');
+        let fast = document.getElementById('fast');
+        function check(option) {
+            switch (option) {
+                case 1:
+                    if (good.checked && cheap.checked) {
+                        good.checked = false;
+                    }
+                    break;
+                case 2:
+                    if (good.checked && fast.checked) {
+                        fast.checked = false;
+                    }
+                    break;
+                case 3:
+                    if (cheap.checked && fast.checked) {
+                        cheap.checked = false;
+                    }
+                    break;
+
+
+            }
+        }
+    </script>
+</form>
+</body>
+</html>

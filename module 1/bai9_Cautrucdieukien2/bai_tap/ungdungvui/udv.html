@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Title</title>
 </head>
 <body>
-<h1>Do you love me?</h1>
-<input id="yes" type="submit" value="Yes" onclick="yes"/>
-<input id="no" type="submit" value="No" onclick="no"/>
-<script>
-</script>
+<h1 id="loveme">Do you love me?</h1>
+<canvas id="canvas"></canvas>
+<input type="button" id="yes" value="Yes" onclick="yesClick()" />
+<input type="button" id="no" value="No" onmouseover="noHover()" />
 
 </body>
 </html>

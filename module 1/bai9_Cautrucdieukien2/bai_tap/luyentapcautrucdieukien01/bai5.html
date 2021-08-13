@@ -5,6 +5,24 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    let a = parseInt(prompt('Nhập điểm kiểm tra'));
+    let b = parseInt(prompt('Nhập điểm thi giữa kì'));
+    let c = parseInt(prompt('Nhập điểm thi cuối kì'));
+    let dtb = a+b+c/3;
+    if(dtb>=8.5) {
+        alert('Hạng A');
+    }else if((dtb>=7.0) && (dtb<8.5)) {
+        alert('Hạng B');
+    }else if((dtb>=5.0) && (dtb<7.0)) {
+        alert('Hạng c');
+    }else if(dtb<5.0) {
+        alert('Hạng D');
+    }else {
+        alert('điểm không hợp lệ');
+
+    }
+</script>
 
 </body>
 </html>

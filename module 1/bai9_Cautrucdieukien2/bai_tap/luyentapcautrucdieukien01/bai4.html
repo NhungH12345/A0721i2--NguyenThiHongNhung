@@ -5,19 +5,18 @@
     <title>Title</title>
 </head>
 <body>
+<!--Nhập 3 số nguyên và tìm giá trị lớn nhất của ba số nguyên đó</h3>-->
 <script>
     let a = parseInt(prompt('nhap a'));
     let b = parseInt(prompt('nhap b'));
     let c = parseInt(prompt('nhap c'));
-    let max = a;
-    if(a>max){
-        alert(max=a);
-    }else if(b>max){
-        alert(max=b);
-    }else{
-        alert(max=c);
+    if (a>b && a>c){
+        alert(a+" là số lớn nhất")
+    }else if (b>a && b>c){
+        alert(b+" là số lớn nhất")
+    }else {
+        alert(c+" là số lớn nhất")
     }
 </script>
-
 </body>
 </html>

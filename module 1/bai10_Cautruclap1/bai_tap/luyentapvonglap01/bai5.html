@@ -6,16 +6,19 @@
 </head>
 <body>
 <script>
-    let n1 = 0, n2 = 1, nextTerm;
-    let sum= 0;
-
-    for (let i = 1; i <= count; i++) {
-        document.write(n1);
-        document.write('<br>');
-        nextTerm = n1 + n2;
-        n1 = n2;
-        n2 = nextTerm;
+    let F0=1,F1=1;
+    let F=F0+F1;
+    let fibonacci=F0+"  "+F1+" "+F+" ";
+    let sum=0;
+    for (let i=0; i<17;i++){
+        F0=F1;
+        F1=F;
+        F=F0+F1;
+        fibonacci+=F+" ";
+        sum +=F;
     }
+    document.write("Dãy Fibonacci là "+fibonacci+"<br>")
+    document.write("Tổng các số = "+sum)
 </script>
 
 </body>

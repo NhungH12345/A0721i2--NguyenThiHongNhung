@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+<body>
+<input type="text" id="anh">
+
+<input type="button" value="Dịch" onclick="dich()">
+<br><br>
+<p id="viet"/>
+<script>
+    let count = 0;
+    let anh = document.getElementById("anh");
+    let mangTA = ["how", "you", "i", "dog", "cat","what" ]
+    let mangTV = ["làm sao", "bạn", "tôi", "con chó", "con mèo","cái gì"]
+    document.write("Chỉ có thể dịch được các từ [" + mangTA.join(" ") + "]")
+
+    function dich() {
+        for (let i = 0; i < mangTA.length; i++) {
+            if (mangTA[i] === anh.value) {
+                count = 0;
+                document.getElementById("viet").innerHTML = mangTV[i];
+                break;
+            } else {
+                count++
+            }
+        }
+        if (count != 0) {
+            alert("loi");
+        }
+    }
+
+</script>
+</body>
+</html>

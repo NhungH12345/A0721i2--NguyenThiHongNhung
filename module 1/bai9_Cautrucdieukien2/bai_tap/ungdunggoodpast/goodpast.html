@@ -4,36 +4,6 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        input[type=checkbox] + label {
-            background-color: crimson;
-            color: black;
-            font-size: 20px;
-            font-weight: bold;
-            height: 100px;
-            line-height: 40px;
-            position: relative;
-            text-transform: uppercase;
-            width: 80px;
-        }
-
-        input[type=checkbox] + label,
-        input[type=checkbox] + label i {
-            -webkit-transition: all 200ms ease;
-            -moz-transition: all 200ms ease;
-            -o-transition: all 200ms ease;
-            transition: all 200ms ease;
-        }
-
-        input[type=checkbox]:checked + label1 {
-            background-color: olivedrab;
-
-        }
-        input[type=checkbox]:checked + label {
-            background-color: blue;
-        }
-        input[type=checkbox] + label:before {
-            content: attr(data-text-true);
-        }
 
         input[type=checkbox] + label:after {
             content: attr(data-text-false);
@@ -48,9 +18,7 @@
             width: 45%;
         }
 
-        input[type=checkbox]:checked + label i {
-            left: 50%;
-        }
+
 
     </style>
 </head>
@@ -64,27 +32,26 @@
     <br>
     <script>
         let good = document.getElementById('good');
-        let cheap = document.getElementById('cheap');
         let fast = document.getElementById('fast');
+        let cheap = document.getElementById('cheap');
+
         function check(option) {
             switch (option) {
                 case 1:
-                    if (good.checked && cheap.checked) {
-                        good.checked = false;
+                    if (fast.checked && cheap.checked) {
+                        cheap.checked = false;
                     }
                     break;
                 case 2:
+                    if (fast.checked && cheap.checked) {
+                        good.checked = false;
+                    }
+                    break;
+                case 3:
                     if (good.checked && fast.checked) {
                         fast.checked = false;
                     }
                     break;
-                case 3:
-                    if (cheap.checked && fast.checked) {
-                        cheap.checked = false;
-                    }
-                    break;
-
-
             }
         }
     </script>

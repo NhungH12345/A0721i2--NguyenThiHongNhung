@@ -6,11 +6,20 @@
 </head>
 <body>
 <script>
-    //let arr = prompt("Nhap chuoi");
-    let ch1 = "xin chao ban";
-    let ch2  ="ban ten gi";
-    console.log(ch1===ch2);    // false
-    console.log(JSON.stringify(ch1)==JSON.stringify(ch2));    //  true
+    let ch1= ["xin chao ban"];
+    let ch2 = prompt("nhập chuoi: ");
+    let flag= false;
+    for (let i=0; i<ch1.length;i++){
+        if (ch2==ch1[i]){
+            flag= true;
+            break;
+        }
+    }
+    if (flag){
+        alert("giong nhau")
+    }else {
+        alert("khong giong nhau")
+    }
 
 
 </script>

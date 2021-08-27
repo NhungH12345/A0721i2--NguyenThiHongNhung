@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr= [1,6,8,9,10,15,3,5,22,11];
+    let v = prompt("nhập số cần tìm: ");
+    let flag= false;
+    for (let i=0; i<arr.length;i++){
+        if (v==arr[i]){
+            flag= true;
+            break;
+        }
+    }
+    if (flag){
+        alert("V is in the array")
+    }else {
+        alert("V is not in the array")
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function changeValuePassByReference(funcNum) { // tham so
+        funcNum = 1;
+    }
+
+    let num = [5];
+    changeValuePassByReference(num); // doi so
+    num++
+    console.log(num);
+
+</script>
+
+</body>
+</html>

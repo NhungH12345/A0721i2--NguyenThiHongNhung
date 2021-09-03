@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let string = (prompt("Nhap vao chuoi kiem tra: "));
+
+    function isPalindrome(string){
+        // 12321
+        let array = string.split("");
+        //[1,2,3,2,2] reverse [2,2,3,2,1]
+        for (let i = 0; i < array.length / 2; i++){ //2
+            if (array[i] !== array.reverse()[i]){ //2 ?== //2
+                return false;
+            }
+        }
+        return true;
+    }
+    alert(isPalindrome(string));
+</script>
+
+</body>
+</html>

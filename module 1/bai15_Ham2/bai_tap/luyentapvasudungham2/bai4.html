@@ -6,8 +6,23 @@
 </head>
 <body>
 <script>
+    function check(n){
+        if(n %2 ==0|| n%2 ==1){
+            return true;
+        }
+        return false;
 
+    }
+    let n = prompt("nhap ky tu");
+    let index=check(n);
+    if(index){
+        alert(" là ký tự số");
+    }else {
+        alert(" là ký tự chuỗi");
+    }
 </script>
+</body>
+</html>
 
 </body>
 </html>

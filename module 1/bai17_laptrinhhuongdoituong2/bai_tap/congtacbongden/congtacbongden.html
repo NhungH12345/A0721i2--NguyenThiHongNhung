@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Lamp = function (name) {
+        this.name = name;
+        this.status = false;
+        this.turnOn = function () {
+            if (this.status) {
+                console.log("đang sáng ")
+            } else {
+                console.log("đèn đã  bật");
+                this.status =true;
+            }
+        };
+        this.turnOff = function () {
+            if (this.status) {
+                console.log("đèn đã  tắt!");
+                this.status =false
+            } else {
+                console.log("đang sáng")
+
+            }
+        };
+    };
+
+</script>
+
+</body>
+</html>

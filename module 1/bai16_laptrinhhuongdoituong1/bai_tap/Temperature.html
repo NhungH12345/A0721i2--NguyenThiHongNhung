@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Temperature{
+        constructor(C) {
+            this.C = C;
+        }
+        getC () {
+            return this.C;
+        }
+        setC (C) {
+            this.C = C;
+        }
+        convertCToF () {
+            return (1.8*this.C+32);
+        }
+        convertCToK () {
+            return this.C +273.15;
+        }
+        display () {
+            if(this.C >= -273){
+                document.write("C to F: " + this.convertCToF() +"<br>"+"C to K: " + this.convertCToK());
+            }else {
+                document.write("the temperature must be larger than -273 degrees");
+            }
+        }
+    }
+    let temperature_1 = new Temperature(12);
+    temperature_1.display();
+
+
+
+</script>
+
+</body>
+</html>

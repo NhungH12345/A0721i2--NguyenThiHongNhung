@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let max = 0;
+    let numerator;
+    let denominator;
+    let numerators = [5, 2, 5];
+    let denominators = [6, 3, 4];
+    let chiso;
+    for(let i=0; i<numerators.length; i++) {
+
+        if(numerators[i]/denominators[i] > max) {
+            numerator = numerators[i];
+            denominator = denominators[i];
+            max = numerators[i]/denominators[i];
+            chiso = i;
+        }
+
+    }
+    document.writeln(numerator + "/" + denominator + "Chỉ số là " + chiso);
+</script>
+
+</body>
+</html>

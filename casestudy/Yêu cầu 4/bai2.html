@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhập xâu kí tự <input type="text"id="nhap">
+<button onclick="xaukhac()">xau khac</button>
+<script>
+    /*
+    Cho xâu kí tự. Hãy đếm số lượng kí tự khác nhau trong xâu đó
+    Ví dụ: s = "cabca", thì kết quả differentSymbolsNaive(s) = 3.
+	Có 3 kí tự khác nhau là a, b và c.
+     */
+    let count = 0;
+    function xaukhac(){
+        let s = document.getElementById("nhap").value;
+        for( let i=0; i < s.length; i++) {
+            if (s.indexOf(s.charAt(i)) === i) {
+                count++;
+            }
+        }
+        document.write( "kết quả xâu khác(s) = "+count);
+    }
+    </script>
+</body>
+</html>

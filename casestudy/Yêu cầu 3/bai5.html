@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao menu</title>
+</head>
+<body>
+<script>
+    myFunction();
+    function myFunction() {
+        let tien = 0;
+        let check = 0;
+        do {
+            let mon = prompt("moi chon mon: 1 (cafe),2 (cam vắt),3 (nước ép cà rốt),4 (nước ép cà chua),5 (nước lọc),6 (nước dừa),7 (thoát gọi món)");
+            if (mon == "1") {
+                let gia = prompt("don gia: 10 VND, moi nhap so luong");
+                tien = tien + (parseInt(gia) * 10)
+            }
+            if (mon == "2") {
+                let gia = prompt("don gia: 20 VND, moi nhap so luong");
+                tien = tien + (parseInt(gia) * 20)
+            }
+            if (mon == "3") {
+                let gia = prompt("don gia: 30 VND, moi nhap so luong");
+                tien = tien + (parseInt(gia) * 30)
+            }
+            if (mon == "4") {
+                let gia = prompt("don gia: 40 VND, moi nhap so luong");
+                tien = tien + (parseInt(gia) * 40)
+            }
+            if (mon == "5") {
+                let gia = prompt("don gia: 50 VND, moi nhap so luong");
+                tien = tien + (parseInt(gia) * 50)
+            }
+            if (mon == "6") {
+                let gia = prompt("don gia: 60 VND, moi nhap so luong");
+                tien = tien + (parseInt(gia) * 60)
+            }
+            if (mon == "7") {
+                check = 1;
+            }
+        } while (check == 0);
+        alert("tong tien: " +  tien + " VNĐ")
+    }
+
+</script>
+</body>
+</html>

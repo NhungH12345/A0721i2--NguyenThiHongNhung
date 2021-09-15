@@ -7,7 +7,22 @@
 <script>
     /*Viết hàm tính tổng các số chẵn trong ma trận có kích thước m*n. Với m, n là các số nhập từ bàn phím.
      */
-    let n = parseInt(prompt())
+    let m = parseInt(prompt("Nhập m"));
+    let n = parseInt(prompt("Nhập n"));
+    let sum = 0;
+    let a = Array();
+    for( let i=0;i<m;i++){
+        a[i] = Array()
+        for ( let j=0; j<n;j++) {
+            a[i][j] = Math.floor(Math.random() * (10 - 0 + 1)) + 0;
+            document.writeln(a[i][j] + " ");
+            if (a[i][j] % 2 === 0) {
+                sum = sum + a[i][j];
+            }
+        }
+    document.writeln("<br>");
+    }
+    document.writeln("tong các số chẵn là: " +sum);
 </script>
 
 </body>

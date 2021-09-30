@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function stander(name) {
+        name = name.trim().toLocaleLowerCase();
+        let nameArray = Array.from(name);
+        for (let i = 0; i < nameArray.length - 1; i++) {
+            if (nameArray[i] === " " && nameArray[i + 1] === " ") {
+                for (let j = i + 1; j < nameArray.length - 1; j++) {
+                    nameArray[j] = nameArray[j + 1];
+                }
+                i--;
+                nameArray.pop();
+            }
+        }
+        nameArray[0] = nameArray[0].toUpperCase();
+        for (let i = 0; i < nameArray.length - 1; i++) {
+            if (nameArray[i] === " ") {
+                nameArray[i + 1] = nameArray[i + 1].toUpperCase();
+            }
+        }
+        return nameArray.join("");
+    }
+    function maxLength(name) {
+        let arrayName = name.split(" ");
+        let maxName = arrayName[0];//lấy phần tử đầu tiên trong mảng
+        for( let i = 1; i < arrayName.length;i++)
+            if( maxName.length < arrayName[i].length){
+                maxName = arrayName[i];
+    }
+        return maxName;
+    }
+    let name = prompt("Nhap vao ten: ");
+    alert("tên ban đầu: " + name + "\n tên chuẩn hóa là: " + stander(name) + "\n Từ có độ dài lớn nhất là:" + maxLength(stander(name)))
+</script>
+
+</body>
+</html>

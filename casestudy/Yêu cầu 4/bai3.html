@@ -8,17 +8,27 @@
 <script>
     /*Cho hai xâu kí tự, tìm số lượng kí tự chung giữa chúng.
      */
-    let s1 = "aabcc";
-    let s2 = "adcaa";
-    let count = 0;
-    for (let i=0;i<s1.length;i++) {
-        let j = s2.indexOf(s1[i]);
-        if (j >= 0) {
-            count++;
-            s2 = s2.replace(s1[i], '');
+    function kt (s1, s2){
+        let array1 = s1.split("");
+        let array2 = s2.split("");
+        let count = 0;
+        for (let i = 0; i < array1.length; i++) {
+            for (let j = 0; j < array2.length; j++) {
+                if (array1[i] === array2[j]) {
+                    count++;
+                    array1.splice(i, 1);
+                    array2.splice(j, 1);
+                    i--;
+                    break;
+                }
+            }
+
         }
+        return count;
     }
-    document.write("kết quả commonCharacterCount(s1, s2) = " +count);
+    let s1 = prompt("Nhập vào xâu 1: ");
+    let s2 = prompt(" Nhập vào xâu 2: ");
+    document.write("kết quả commonCharacterCount(s1, s2) = " +kt(s1,s2));
 </script>
 
 </body>

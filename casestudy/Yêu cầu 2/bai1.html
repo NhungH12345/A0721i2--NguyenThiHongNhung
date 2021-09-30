@@ -7,30 +7,20 @@
 <body>
 <script>
     let luong = prompt("nhap luong nhan vien: ");
-    let sothue ;
+    let thue = 0 ;
     let luongrong = 0;
-    if(luong>15){
-        sothue = luong*0.2;
-        thuesuat = 20;
-        document.writeln("thue thu thap là 20% ");
+    if(luong>=15000000){
+        thue = 20;
     }
-    else if(luong>=7){
-        sothue = luong * 0.1;
-        thuesuat = 10;
-        document.writeln("thue thu thap la 10%");
+    else if(luong>=7000000){
+        thue = 10;
     }
     else {
-        sothue = luong * 0.05;
-        thuesuat = 5;
-        document.writeln("thue thu thap la 5%");
+        thue = 5;
     }
-    luongrong = luong - sothue;
-    document.writeln("luong" +luongrong);
-
-
-
+    luongrong = luong - luong*thue/100;
+    document.write("thue:" +thue + "</br>" +"luong:" +luongrong);
 
 </script>
-
 </body>
 </html>

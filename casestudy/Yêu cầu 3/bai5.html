@@ -6,42 +6,49 @@
 </head>
 <body>
 <script>
-    myFunction();
-    function myFunction() {
-        let tien = 0;
-        let check = 0;
+        let menu= "moi chon do uong \n" +
+            "1 (cafe) \n"+
+            "2 (cam vắt) \n" +
+            "3 (nước ép cà rốt) \n" +
+            "4 (nước ép cà chua) \n" +
+            "5 (nước lọc) \n"+
+            "6 (nước dừa) \n"+
+            "7 (thoát chọn đồ uống)";
+        let total = 0;//tính tổng tiền
+        let choose = 0;// ng dùng nhập
         do {
-            let mon = prompt("moi chon mon: 1 (cafe),2 (cam vắt),3 (nước ép cà rốt),4 (nước ép cà chua),5 (nước lọc),6 (nước dừa),7 (thoát gọi món)");
-            if (mon == "1") {
-                let gia = prompt("don gia: 10 VND, moi nhap so luong");
-                tien = tien + (parseInt(gia) * 10)
+            let amount = 0;//so lương
+            let price = 0;//giá
+            choose = parseInt(prompt(menu))
+            switch (choose) {
+                case 1:
+                    price = 5000;
+                    break;
+                case 2:
+                    price = 10000;
+                    break;
+                case 3:
+                    price = 15000;
+                    break;
+                case 4:
+                    price = 20000;
+                    break;
+                case 5:
+                    price = 25000;
+                    break;
+                case 6:
+                    price = 27000;
+                    break;
+                case 7:
+                    continue;
             }
-            if (mon == "2") {
-                let gia = prompt("don gia: 20 VND, moi nhap so luong");
-                tien = tien + (parseInt(gia) * 20)
-            }
-            if (mon == "3") {
-                let gia = prompt("don gia: 30 VND, moi nhap so luong");
-                tien = tien + (parseInt(gia) * 30)
-            }
-            if (mon == "4") {
-                let gia = prompt("don gia: 40 VND, moi nhap so luong");
-                tien = tien + (parseInt(gia) * 40)
-            }
-            if (mon == "5") {
-                let gia = prompt("don gia: 50 VND, moi nhap so luong");
-                tien = tien + (parseInt(gia) * 50)
-            }
-            if (mon == "6") {
-                let gia = prompt("don gia: 60 VND, moi nhap so luong");
-                tien = tien + (parseInt(gia) * 60)
-            }
-            if (mon == "7") {
-                check = 1;
-            }
-        } while (check == 0);
-        alert("tong tien: " +  tien + " VNĐ")
-    }
+            amount = parseInt(prompt("Nhap so lương do uong"));
+            total += amount * price;
+        }
+        while(choose !== 7);
+        alert("Tổng tiền là : " +total);
+
+
 
 </script>
 </body>

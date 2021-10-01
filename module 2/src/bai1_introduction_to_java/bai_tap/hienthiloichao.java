@@ -1,4 +1,4 @@
-package bai_tap;
+package bai1_introduction_to_java.bai_tap;
 
 import java.util.Scanner;
 
@@ -10,3 +10,4 @@ public class hienthiloichao {
         System.out.println("Hello:" + name);
     }
 }
+

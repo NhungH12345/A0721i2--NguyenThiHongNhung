@@ -1,4 +1,4 @@
-package thuc_hanh;
+package bai1_introduction_to_java.thuc_hanh;
 
 import java.util.Date;
 
@@ -9,3 +9,4 @@ public class hienthithoigian {
         System.out.printf("Now is: " + now);
     }
 }
+

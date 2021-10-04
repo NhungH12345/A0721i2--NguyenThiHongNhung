@@ -2,7 +2,7 @@ package bai2_vonglaptrongjava.thuc_hanh;
 
 import java.util.Scanner;
 
-public class udtinhtienlaichovay {
+public class UdTinhTienLaiChoVay {
     public static void main(String[] args) {
         double money = 1.0;
         int month = 1;

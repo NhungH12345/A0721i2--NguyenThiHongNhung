@@ -1,7 +1,7 @@
 package bai2_vonglaptrongjava.bai_tap;
 
 
-public class songuyento {
+public class SoNguyenTo {
     public static void main(String[] args) {
         System.out.println(20+ "sô");
         int count = 0;

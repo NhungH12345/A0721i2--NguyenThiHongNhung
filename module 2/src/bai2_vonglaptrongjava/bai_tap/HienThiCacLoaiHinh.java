@@ -2,7 +2,7 @@ package bai2_vonglaptrongjava.bai_tap;
 
 import java.util.Scanner;
 
-public class hienthicacloaihinh {
+public class HienThiCacLoaiHinh {
     public static void main(String[] args) {
         int choice = -1;
         Scanner input = new Scanner(System.in);

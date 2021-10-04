@@ -2,7 +2,7 @@ package bai1_introduction_to_java.thuc_hanh;
 
 import java.util.Scanner;
 
-public class ngaytrongthang {
+public class NgayTrongThang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

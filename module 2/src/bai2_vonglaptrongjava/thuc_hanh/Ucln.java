@@ -2,7 +2,7 @@ package bai2_vonglaptrongjava.thuc_hanh;
 
 import java.util.Scanner;
 
-public class UCLN {
+public class Ucln {
     public static void main(String[] args) {
         int a;
         int b;

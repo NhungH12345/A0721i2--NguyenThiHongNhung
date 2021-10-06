@@ -1,32 +1,27 @@
 package bai2_vonglaptrongjava.bai_tap;
 
-
 public class SoNguyenTo {
-    public static void main(String[] args) {
-        System.out.println(20+ "sô");
-        int count = 0;
-        int num = 2;
-        String result = "";
-        while (count < 20){
-            // tìm số nguyên tố. khi nào đủ 20 số dừng lại
-            boolean flag =true;
-            if (num < 2){
-                flag =false;
-            }else {
-                for (int i =2; i<num;i++){
-                    if (num%i==0){
-                        flag =false;
-                        break;
-                    }
+    public static boolean CheckPrimeNumber(int num) {
+        if (num < 2) {
+            return false;
+        } else {
+            for (int i = 2; i < num; i++) {
+                if (num % i == 0) {
+                    return false;
                 }
             }
-            if (flag){
-                result+= num+",";
+            return true;
+        }
+    }
+    public static void main(String[] args) {
+        int count = 0;
+        int i = 2;
+        while (count <= 20) {
+            if (CheckPrimeNumber(i) == true) {
+                System.out.println(i);
                 count++;
             }
-            num++;
+            i++;
         }
-        System.out.println(result);
-
     }
 }

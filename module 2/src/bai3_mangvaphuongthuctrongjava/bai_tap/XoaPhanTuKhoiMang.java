@@ -8,8 +8,8 @@ public class XoaPhanTuKhoiMang {
         int size;
         int[] arr;
         System.out.print("Enter a size");
-        size = scanner.nextInt();
-        arr = new int[size];
+         size = scanner.nextInt();
+         arr = new int[size];
         for (int i = 0; i < arr.length; i++) {
             System.out.print("Enter element " + (i + 1) + ": ");
             arr[i] = scanner.nextInt();
@@ -21,10 +21,11 @@ public class XoaPhanTuKhoiMang {
         }
 
         System.out.print("Enter delete element: ");
-        int input_name = scanner.nextInt();
+        int num = scanner.nextInt();
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "\t");
-            if (arr[i] == input_name) {
+            //System.out.println("Position of the students in the list");
+            if (arr[i] == num) {
+               // System.out.printf("num+ đã có trong danh sach");
                 for (int j = i; j < arr.length - 1; j++) {
                     arr[j] = arr[j + 1];
                 }

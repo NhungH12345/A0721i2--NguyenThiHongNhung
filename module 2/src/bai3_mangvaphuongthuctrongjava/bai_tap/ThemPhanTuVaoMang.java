@@ -5,37 +5,33 @@ import java.util.Scanner;
 public class ThemPhanTuVaoMang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int size;
-        int[] arr;
-        System.out.print("Enter a size");
-        size = scanner.nextInt();
-        arr = new int[size];
+        System.out.print("Nhập size");
+        int size = scanner.nextInt();
+        int[] arr = new int[size];
+
         for (int i = 0; i < arr.length; i++) {
-            System.out.print("Enter element " + (i + 1) + ": ");
+            System.out.print("Nhập phần tử thứ: " + i + ": ");
             arr[i] = scanner.nextInt();
+            if (arr[i] == 0)
+                break;
         }
-        System.out.printf("%-20s%s", "Elements in array: ", "");
-        for (int i = 0; i < arr.length; i++) {
+        System.out.print("Nhập số cần chèn :");
+        int X = scanner.nextInt();
+        System.out.print("Nhập vị trí cần chèn : ");
+        int index = scanner.nextInt();
+        if (index <= 1 || index >= arr.length - 1) {
+            System.out.println("không chèn được phần tử vào mảng");
+        } else {
+            for (int i = arr.length - 1; i > index; i--) {
+                arr[i] = arr[i - 1];
+            }
+            arr[index] = X;
 
-            System.out.print(arr[i] + "\t");
-        }
-
-        System.out.print("Add element to array");
-        int input_name = scanner.nextInt();
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "\t");
-            if (arr[i] == input_name) {
-                for (int j = i; j < arr.length - 1; j++) {
-                    arr[j] = arr[j + 1];
-                }
-                arr[arr.length - 1] = 0;
-                i++;
+            System.out.println("Mảng sau khi thêm là");
+            for (int i = 0; i < arr.length; i++) {
+                System.out.print(arr[i] + "\t");
             }
 
-        }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "\t");
-        }
-
+    }
     }
 }

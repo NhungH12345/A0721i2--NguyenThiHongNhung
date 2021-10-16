@@ -5,33 +5,27 @@ import java.util.Scanner;
 public class ThemPhanTuVaoMang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập size");
-        int size = scanner.nextInt();
-        int[] arr = new int[size];
-
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print("Nhập phần tử thứ: " + i + ": ");
-            arr[i] = scanner.nextInt();
-            if (arr[i] == 0)
-                break;
-        }
+        int[] array = {1,3,5,6,7,8};
+        int[] arr2 = new int[array.length + 1];
         System.out.print("Nhập số cần chèn :");
         int X = scanner.nextInt();
         System.out.print("Nhập vị trí cần chèn : ");
         int index = scanner.nextInt();
-        if (index <= 1 || index >= arr.length - 1) {
+        if (index <= 1 || index >= array.length - 1) {
             System.out.println("không chèn được phần tử vào mảng");
         } else {
-            for (int i = arr.length - 1; i > index; i--) {
-                arr[i] = arr[i - 1];
+            for (int i = 0; i < index; i++) {
+                arr2[i] = array[i];
             }
-            arr[index] = X;
-
-            System.out.println("Mảng sau khi thêm là");
-            for (int i = 0; i < arr.length; i++) {
-                System.out.print(arr[i] + "\t");
+            arr2[index] = X;
+            for (int j = index + 1; j < array.length + 1; j++) {
+                arr2[j] = array[j - 1];
             }
 
-    }
+                System.out.println("Mảng sau khi thêm là");
+                for (int i = 0; i < arr2.length; i++) {
+                    System.out.print(arr2[i] + "\t");
+            }
+        }
     }
 }

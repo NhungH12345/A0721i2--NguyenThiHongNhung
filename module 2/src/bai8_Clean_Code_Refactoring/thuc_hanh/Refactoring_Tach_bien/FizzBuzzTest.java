@@ -1,10 +1,10 @@
 package bai8_Clean_Code_Refactoring.thuc_hanh.Refactoring_Tach_bien;
 
-//import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Test;
 
-//import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-class FizzBuzzTest {
+public class FizzBuzzTest {
 
     @Test
     void testFizz3() {

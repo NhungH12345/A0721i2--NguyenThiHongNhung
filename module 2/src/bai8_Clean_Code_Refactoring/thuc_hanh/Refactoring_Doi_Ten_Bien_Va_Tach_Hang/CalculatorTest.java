@@ -1,8 +1,11 @@
 package bai8_Clean_Code_Refactoring.thuc_hanh.Refactoring_Doi_Ten_Bien_Va_Tach_Hang;
 
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
-class CalculatorTest {
+public class CalculatorTest {
 
     @Test
     @DisplayName("Testing addition")

@@ -1,8 +1,8 @@
-package bai11_DSA_Stack_queue.thuc_hanh.Trien_Kai_Stack_Su_Dung_Lop_LinkedList;
+package bai11_DSA_Stack_queue.thuc_hanh.Trien_Khai_Stack_Su_Dung_Lop_LinkedList;
 import java.util.EmptyStackException;
 import java.util.LinkedList;
-import java.util.LinkedList;
-    public class MyGenericStack<T> {
+
+public class MyGenericStack<T> {
         private LinkedList<T> stack;
 
         public MyGenericStack() {

@@ -14,16 +14,7 @@ public class MyList<T> {
     public void ensureCapacity() {
         int newSize = elements.length * 2;
         elements = Arrays.copyOf(elements, newSize);
-        // Tạo mảng mới với độ dài gấp đôi mảng elements cũ
-//        T[] newElements = (T[]) new Object[newSize];
-        // Copy dữ liệu từ mảng elements sang mảng newElements
-//        for (int i = 0; i < elements.length; i++) {
-//            newElements[i] = elements[i];
-//        }
-        // Gán mảng elements trỏ sang mảng mới
-//        elements = newElements;
     }
-
     public void add(T element) {
         if (size == elements.length) {
             ensureCapacity();

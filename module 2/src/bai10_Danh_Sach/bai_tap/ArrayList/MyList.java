@@ -37,10 +37,26 @@ public class MyList<E> {
             }
             return false;
         }
+    public E get(int i) {
+        if (i >= 0 && i <= size) {
+            return elements[i];
+        }
+        return null;
+    }
     public int size() {
         return this.size;
     }
-    public void clean() {
+    public boolean remove(int index) {
+        if (index >= 0 && index < size) {
+            for (int i = index; i < size; i++) {
+                elements[i] = elements[i + 1];
+            }
+            size = size - 1;
+            return true;
+        }
+        return false;
+    }
+    public void clear() {
         size = 0;
         for (int i = 0; i < elements.length; i++) {
             elements[i] = null;
@@ -55,5 +71,12 @@ public class MyList<E> {
             }
             return index;
         }
-
+    public boolean contains(E  element) {
+        for (E x : elements) {
+            if (element.equals(x)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

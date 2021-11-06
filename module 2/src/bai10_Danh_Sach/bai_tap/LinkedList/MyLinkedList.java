@@ -54,6 +54,6 @@ public class MyLinkedList<E> {
         }
         numNodes--;
     }
-    
+
 
 }

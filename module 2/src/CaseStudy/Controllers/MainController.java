@@ -2,7 +2,7 @@ package CaseStudy.Controllers;
 
 import java.util.Scanner;
 
-public class FuramaController {
+public class MainController {
     public static void main(String[] args) {
         displayMainMenu();
     }
@@ -25,6 +25,12 @@ public class FuramaController {
                 }
                 case 2: {
                     showServices();
+                }
+                case 3:{
+                    addNewCustomer();
+                    break;
+                }
+                case 4:{
                 }
             }
         }
@@ -64,7 +70,6 @@ public class FuramaController {
             }
         }
     }
-
     public static void addNewCustomer() {
         boolean check = true;
         while (check) {

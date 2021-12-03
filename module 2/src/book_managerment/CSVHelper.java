@@ -14,7 +14,7 @@ public class CSVHelper<T> {
                 file.createNewFile();
 
             BufferedReader bufferedReader= new BufferedReader(new FileReader(path));
-            String line;
+            String line = null;
             while ((line= bufferedReader.readLine())!= null){
                 res.add(line);
             }

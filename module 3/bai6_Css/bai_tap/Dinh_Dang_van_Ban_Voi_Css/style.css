@@ -1,0 +1,20 @@
+div{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    text-indentation: lable;
+}
+p{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align: justify;
+    text-indentation: p;
+    text-indent: 40px;
+    text-style: 10px;
+}
+p span1{
+    color: #08c9ff;
+}
+p span2{
+    color: #4722ff;
+
+}

@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        body{
-            font-family: "Arial";
-        }
-        *{
-            /*content-box: width và height chỉ là của content*/
-            /*border-box: width là bao gồm của padding, content và border*/
+        * {
+            box-sizing: inherit;
+            padding: 0;
+            margin: 0;
             box-sizing: border-box;
+        }
+        body {
+            padding: 0;
+            margin: 0;
         }
         .header {
             background-color: #eee ;
             color: black;
             font-size: 50px;
             font-style: italic;
+            padding: 5px;
         }
         .header span {
             color: white;
@@ -27,7 +30,8 @@
             font-size: 30px;
             text-align: center;
             margin-top: 5px;
-            padding: 10px;
+            padding: 10px 0;
+            margin-bottom: 10px;
 
             
         }
@@ -91,7 +95,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-4">
+        <div class="col-5">
             <div>
                 <div>
                     <video width="100%" controls>
@@ -110,20 +114,20 @@
                         <source src="movie.ogg" type="video/ogg">
                         Not view video
                     </video>
-                    <h4>Title Video</h4>
-                    <p>Chanel fun</p>
+                    <h4>Suneo khổng lồ</h4>
+                    <p> Doreamon Vietsus</p>
                 </div>
             </div>
         </div>
-        <div class="col-8">
+        <div class="col-7">
             <div class="row">
                 <video width="100%" controls>
-                    <source src="movie.mp4" type="video/mp4">
+                    <source src="https://www.youtube.com/watch?v=SU_fBUrgo1I" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
                     Not view video
                 </video>
-                <h4>Title Video</h4>
-                <p>Chanel fun</p>
+                <h4>Suneo khổng lồ</h4>
+                <p> Doreamon Vietsus</p>
             </div>
         </div>
     </div>

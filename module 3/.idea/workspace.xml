@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f4e0278-9849-49ea-bac5-3629fee1294b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/img/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/img/img_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/img/img_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/img/img_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/module 3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/module 3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/web_xem_hoat_hinh/hoathinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/web_xem_hoat_hinh/hoathinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.min.js.map" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="22s1zQPcwQULtx14UGCGvrkTECh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="G:/Tài liêu triển khai lớp mới lớp A0721I2/TaiLieuTrienKhaiModule3/module3/demo/c08g-bootstrap" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f4e0278-9849-49ea-bac5-3629fee1294b" name="Default Changelist" comment="" />
+      <created>1640611742495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640611742495</updated>
+      <workItem from="1640611746529" duration="2028000" />
+      <workItem from="1640615821063" duration="1617000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1640616406369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1640616406369" />
+  </component>
+</project>

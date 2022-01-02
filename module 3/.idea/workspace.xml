@@ -2,39 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4e0278-9849-49ea-bac5-3629fee1294b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/img/img_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/img/img_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/img/img_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/img/img_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/module 3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/module 3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/src/main/java/servlet/ConverterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/web_xem_hoat_hinh/hoathinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/web_xem_hoat_hinh/hoathinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.0.0-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled/.idea/artifacts/untitled_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled/out/artifacts/untitled_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled/out/artifacts/untitled_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/build/libs/untitled3-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/untitled3/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +81,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="G:/Tài liêu triển khai lớp mới lớp A0721I2/TaiLieuTrienKhaiModule3/module3/demo/c08g-bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/web_xem_hoat_hinh/video" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -76,6 +89,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\A0721i2--NguyenThiHongNhung\module 3\bai7_thiet_ke_bo_cuc_trang_web\bai_tap\web_xem_hoat_hinh\video" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,6 +108,7 @@
       <updated>1640611742495</updated>
       <workItem from="1640611746529" duration="2028000" />
       <workItem from="1640615821063" duration="1617000" />
+      <workItem from="1640950198459" duration="6217000" />
     </task>
     <servers />
   </component>
@@ -96,9 +116,17 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1640616406369">
+    <state x="129" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640951713612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1640616406369" />
+    <state x="129" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640951713612" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1640951466903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1640951466903" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1640950209005">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1640950209005" />
   </component>
 </project>

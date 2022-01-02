@@ -1,104 +1,40 @@
 body{
     font-family: Arial;
-    font-size: 20px;
-}
-.wrap{
-    font-family: "Times New Roman";
-    float: left;
-    font-size: 20px;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 #header{
-    color: black;
-
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
 }
-.main {
+#menu{
     height: 30px;
-    padding: 0;
-    margin: 0;
+    padding:10px;
+    margin: 10px;
 }
-
-.menu {
-    height: 30px;
-    padding:15px;
-    margin:0;
-    background-color: #000000;
-    border: 1px solid #CDCDCD;
-}
-
-.menu ul, #menu li{
-    padding:0;
-    margin:0;
-}
-
-.menu li{
-    position: relative;
+#menu li{
     float: left;
     list-style: none;
     margin: 0;
     padding:0;
 }
-
-.menu li a{
-    width:100px;
+#menu li a {
+    width: 100px;
     height: 30px;
     display: block;
-    text-decoration:none;
+    text-decoration: none;
     text-align: center;
     line-height: 30px;
     background-color: black;
     color: white;
 }
 
-.menu ul ul li a{
-    width: 200px;
-    text-align: left;
-    padding-left: 10px;
-}
-
-.menu li a:hover{
-    background-color: red;
-}
-
-.menu ul ul{
-    position: absolute;
-    top: 30px;
-    left: 15px;
-    visibility: hidden;
-}
-
-.menu ul li:hover ul{
-    visibility: visible;
-}
-#content{
-    float: left;
-    margin: 5px;
-    padding:100px;
-    background-color: white;
-    float: right;
-}
-#right{
-    background-color: lightgrey;
-    padding: 100px;
-    font-size: 30px;
+.footer{
+    font-size: 20px;
+    font-weight: bolder;
     text-align: center;
-    margin-top: 5px;
-}
-#right article1 p{
-    background-color: lavender;
-    padding: 30px;
-    margin-top: 30px;
-
-}
-
-#footer {
     background-color: black;
     color: white;
-    clear: both;
-    text-align: center;
-    height: 30px;
-    padding:20px;
-    margin:0;
+    clear:both;
+    margin: 10px;
+    padding: 10px;
 }

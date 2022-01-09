@@ -2,52 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4e0278-9849-49ea-bac5-3629fee1294b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/src/main/java/servlet/ConverterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/lib/hamcrest-all-1.3 (1).jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/lib/junit-4.13.2 (1).jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/lib/junit-jupiter-api-5.4.2 (1).jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai10_JSP_JSTL/thuc_hanh/ung_dung_chuyen_doi_tien_te/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 2/module 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../module 2/module 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_layout_voi_RWD/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/web_xem_hoat_hinh/hoathinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/web_xem_hoat_hinh/hoathinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled/.idea/artifacts/untitled_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled/out/artifacts/untitled_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled/out/artifacts/untitled_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/build/libs/untitled3-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_chuyen_doi_tien_te/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/untitled3/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/build/classes/java/main/model/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/build/classes/java/main/servlet/CalculatorServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/build/libs/ung_dung_calculator-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/src/main/java/model/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/src/main/java/servlet/CalculatorServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_ung_dung_caculator/bai_tap/ung_dung_calculator/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_tu_dien/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/ung_dung_tu_dien/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_tong_quan_ung_dung_web/thuc_hanh/untitled/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +97,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai7_thiet_ke_bo_cuc_trang_web/bai_tap/web_xem_hoat_hinh/video" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../food website" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -89,12 +111,142 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\A0721i2--NguyenThiHongNhung\module 3\bai7_thiet_ke_bo_cuc_trang_web\bai_tap\web_xem_hoat_hinh\video" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_module_3_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64978" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_module_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64978" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -109,6 +261,8 @@
       <workItem from="1640611746529" duration="2028000" />
       <workItem from="1640615821063" duration="1617000" />
       <workItem from="1640950198459" duration="6217000" />
+      <workItem from="1641381397637" duration="5765000" />
+      <workItem from="1641556973607" duration="649000" />
     </task>
     <servers />
   </component>
@@ -116,17 +270,41 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="526" y="0" width="816" height="728" key="#Intentions" timestamp="1641383827535">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1641383827535" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1641384569876">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1641384569876" />
+    <state x="461" y="241" key="#Tomcat_Server" timestamp="1641382654433">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="461" y="241" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1641382654433" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1641384576234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1641384576234" />
+    <state x="413" y="2" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1641384556956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="2" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1641384556956" />
     <state x="129" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640951713612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640951713612" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1640951466903">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1641557028278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1640951466903" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1641557028278" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1640950209005">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1640950209005" />
+    <state x="65" y="0" key="new project wizard" timestamp="1641384663493">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1641384663493" />
   </component>
 </project>

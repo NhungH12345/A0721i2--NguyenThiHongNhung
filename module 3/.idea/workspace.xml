@@ -2,84 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4e0278-9849-49ea-bac5-3629fee1294b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CaseStudy/src/main/java/casestudy/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/src/main/java/casestudy/model/Customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/src/main/java/casestudy/model/Customer/Customer_type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/src/main/webapp/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/src/main/webapp/img/aa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/src/main/webapp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/baitap/src/main/java/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/baitap/src/main/java/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/baitap/src/main/java/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/baitap/src/main/webapp/product/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/baitap/src/main/webapp/product/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/baitap/src/main/webapp/product/v.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo_spring_mvc/src/main/webapp/WEB_INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo_spring_mvc/src/main/webapp/WEB_INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo_spring_mvc/src/main/webapp/WEB_INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/spring-greeting/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/spring-greeting/.idea/artifacts/spring_greeting_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/spring-greeting/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/spring-greeting/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/spring-greeting/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/spring-greeting/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/spring-greeting/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/spring-greeting/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/spring-greeting/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/spring-greeting/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/thicuoimodule/src/main/java/controller/MatbangController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/thicuoimodule/src/main/java/model/Matbang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/thicuoimodule/src/main/java/service/MatbangService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/thicuoimodule/src/main/webapp/matbang/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/thicuoimodule/src/main/webapp/matbang/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/.idea/artifacts/Ung_Dung_Chuyen_Doi_Tien_Te_main_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/src/main/java/bai/controller/ConvertController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/src/main/webapp/WEB-INF/views/chuyen.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Chuyen_Doi_Tien_Te/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Tu_Dien_Dơn_Gian/src/main/java/bai/controller/DictionaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Tu_Dien_Dơn_Gian/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/bai_tap/Ung_Dung_Tu_Dien_Dơn_Gian/src/main/webapp/WEB-INF/views/work.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/Tao_Ung_Dung_Spring_Greeting/src/main/java/com/codegym/controller/GreetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/Tao_Ung_Dung_Spring_Greeting/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/Tao_Ung_Dung_Spring_Greeting/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/Tao_Ung_Dung_Spring_Greeting/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/Tao_Ung_Dung_Spring_Greeting/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/bai_tap/Sandwich/src/main/java/com/codegym/controller/SandwichController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/bai_tap/Sandwich/src/main/webapp/WEB-INF/views/condiment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/bai_tap/Sandwich/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/bai_tap/caculator/src/main/java/com/codegym/controller/CaculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/bai_tap/caculator/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/bai_tap/spring-timezone-maven/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/src/main/java/com/codegym/comtroller/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-maven/src/main/java/com/codegym/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-maven/src/main/webapp/WEB-INF/configs/ spring-config-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-maven/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-maven/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/spring-timezone-gradle/src/main/java/com/codegym/controller/TimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/spring-timezone-gradle/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/spring-timezone-maven/src/main/webapp/WEB-INF/views/worldclock.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 4/bai3_Data_binding_Form/thuc_hanh/Form_Databinding/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 4/bai3_Data_binding_Form/thuc_hanh/Form_Databinding/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai12_JDBC&amp;CRUD/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bai12_JDBC&amp;CRUD/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/src/main/java/com/codegym/comtroller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/src/main/java/com/codegym/comtroller/EmailController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module 4/bai2_spring_controller/bai_tap/Sandwich" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -279,6 +214,8 @@
       <workItem from="1642915821352" duration="1061000" />
       <workItem from="1643031587250" duration="605000" />
       <workItem from="1645182917629" duration="1587000" />
+      <workItem from="1645250072666" duration="712000" />
+      <workItem from="1645262530514" duration="1185000" />
     </task>
     <servers />
   </component>
@@ -310,17 +247,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640951713612" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1645183924672">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1645263157398">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1645183924672" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1645263157398" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1640950209005">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1640950209005" />
-    <state x="65" y="0" key="new project wizard" timestamp="1641384663493">
+    <state x="65" y="0" key="new project wizard" timestamp="1645263185416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1641384663493" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1645263185416" />
   </component>
 </project>

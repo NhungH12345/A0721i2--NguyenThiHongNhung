@@ -12,19 +12,16 @@
   </head>
   <body>
   <h1>Calculator</h1>
-  <form action="calculate" method="post">
+  <form action="calculator" method="post">
     <input type="text" name="number1" value="${number1}">
     <input type="text" name="number2" value="${number2}">
     <p>
-      <input type="submit" name="calcu" value="Addition(+)">
-      <input type="submit" name="calcu" value="Subtraction(-)">
-      <input type="submit" name="calcu" value="Multiplication(X)">
-      <input type="submit" name="calcu" value="Division(/)">
+      <input type="submit" name="calculator" value="Addition(+)">
+      <input type="submit" name="calculator" value="Subtraction(-)">
+      <input type="submit" name="calculator" value="Multiplication(X)">
+      <input type="submit" name="calculator" value="Division(/)">
     </p>
   </form>
-  <h2>Result Division </h2>
-  <c:forEach items="${caculator}" var="result">
-    ${result}
-  </c:forEach>
+  <h2>Result ${calculator}:  ${result}</h2>
   </body>
 </html>

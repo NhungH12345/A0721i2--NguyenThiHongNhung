@@ -17,11 +17,11 @@
     <table>
       <tr>
         <td>USD:</td>
-        <td><input name="usd" placeholder="Enter USD" value="0"></td>
+        <td><input name="usd" value="0"></td>
       </tr>
       <tr>
         <td>Rate:</td>
-        <td><input name="rate" placeholder="Enter rate" value="23000"></td>
+        <td><input name="rate" value="23000"></td>
       </tr>
       <tr>
         <td></td>

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5c89838-677e-44c6-bab3-41fe66675d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module 2/src/bai2_vonglaptrongjava/thuc_hanh/kiemtrasonguyento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3/bai12_JDBC&amp;CRUD/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module 3/bai12_JDBC&amp;CRUD/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/module 3/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/module 3/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 3/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/module 3/bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module 2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module 3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,6 +61,7 @@
       <workItem from="1633001755276" duration="32000" />
       <workItem from="1633064331977" duration="677000" />
       <workItem from="1633254326201" duration="16000" />
+      <workItem from="1642596302812" duration="98000" />
     </task>
     <servers />
   </component>
@@ -64,13 +69,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1633254339803">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1642596356360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1633254339803" />
-    <state x="65" y="0" key="new project wizard" timestamp="1632921293126">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1632921293126" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1642596356360" />
   </component>
 </project>

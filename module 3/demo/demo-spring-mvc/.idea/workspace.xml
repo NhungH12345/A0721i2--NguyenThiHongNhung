@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f61e746f-191d-4a88-a21e-53830b96d506" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/src/main/java/casestudy/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/src/main/java/casestudy/model/Customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/src/main/java/casestudy/model/Customer/Customer_type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/src/main/webapp/img/aa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/webapp/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/webapp/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap/src/main/webapp/product/v.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_mvc/src/main/webapp/WEB_INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_mvc/src/main/webapp/WEB_INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_mvc/src/main/webapp/WEB_INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-greeting/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-greeting/.idea/artifacts/spring_greeting_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-greeting/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-greeting/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-greeting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-greeting/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-greeting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-greeting/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-greeting/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-greeting/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thicuoimodule/src/main/java/controller/MatbangController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thicuoimodule/src/main/java/model/Matbang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thicuoimodule/src/main/java/service/MatbangService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thicuoimodule/src/main/webapp/matbang/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thicuoimodule/src/main/webapp/matbang/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai12_JDBC&amp;CRUD/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai12_JDBC&amp;CRUD/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai12_JDBC&amp;CRUD/thuc_hanh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="256ElF75AOuzcnjrZ5QBoNQf4ql" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f61e746f-191d-4a88-a21e-53830b96d506" name="Default Changelist" comment="" />
+      <created>1644839284537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644839284537</updated>
+      <workItem from="1644839288232" duration="1771000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="65" y="0" key="new project wizard" timestamp="1644840132179">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1644840132179" />
+  </component>
+</project>

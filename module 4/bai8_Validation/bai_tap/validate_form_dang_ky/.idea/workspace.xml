@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="531dbf66-c3e2-4d8c-bcd7-f419f2f1e250" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/thuc_hanh/quan_ly_du_lieu_khach_hang/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/java/com/codegym/tao_ung_dung_blog/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/java/com/codegym/tao_ung_dung_blog/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/java/com/codegym/tao_ung_dung_blog/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/java/com/codegym/tao_ung_dung_blog/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai7_Spring_Data_Repo/thuc_hanh/quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai7_Spring_Data_Repo/thuc_hanh/quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai7_Spring_Data_Repo/thuc_hanh/quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai7_Spring_Data_Repo/thuc_hanh/quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai7_Spring_Data_Repo/thuc_hanh/quan_ly_khach_hang/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai7_Spring_Data_Repo/thuc_hanh/quan_ly_khach_hang/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai7_Spring_Data_Repo/thuc_hanh/quan_ly_khach_hang/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/custom_validation/src/main/java/com/codegym/custom_validation/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/custom_validation/src/main/java/com/codegym/custom_validation/controller/PhoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/custom_validation/src/main/java/com/codegym/custom_validation/model/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/custom_validation/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/custom_validation/src/main/resources/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/custom_validation/src/main/resources/validation-message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/validate-infor-user/src/main/java/com/codegym/validateinforuser/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/validate-infor-user/src/main/java/com/codegym/validateinforuser/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/validate-infor-user/src/main/java/com/codegym/validateinforuser/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/validate-infor-user/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/validate-infor-user/src/main/resources/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/validate-infor-user/src/main/resources/validation-message.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/src/main/java/com/codegym/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/bai_tap/quan_ly_san_pham/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/thuc_hanh/quan_ly_du_lieu_khach_hang/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/thuc_hanh/quan_ly_du_lieu_khach_hang/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/thuc_hanh/quan_ly_du_lieu_khach_hang/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai4_Views_thymeleaf/thuc_hanh/quan_ly_du_lieu_khach_hang/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/jpa_store_procedured/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/jpa_store_procedured/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/jpa_store_procedured/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/jpa_store_procedured/src/main/resources/templates/create.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="26DdguLlmCthkQ9DR2xdW6WFlqP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ValidateFormDangKyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="validate_form_dang_ky" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codegym.validate_form_dang_ky.ValidateFormDangKyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="531dbf66-c3e2-4d8c-bcd7-f419f2f1e250" name="Default Changelist" comment="" />
+      <created>1646962204122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646962204122</updated>
+      <workItem from="1646962210152" duration="405000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1646962454667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1646962454667" />
+    <state x="65" y="24" key="new project wizard" timestamp="1646962556546">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1646962556546" />
+  </component>
+</project>

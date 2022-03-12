@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head th:replace="/layout :: head"></head>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -34,6 +33,6 @@
     </form>
 </div>
 </center>
-<footer th:replace="layout :: footer"></footer>
+<footer th:replace="~{layout::footer}"></footer>
 </body>
 </html>

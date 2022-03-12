@@ -58,7 +58,7 @@ public class ProductController {
     public String delete(Product product, RedirectAttributes redirect) {
         iProductService.remove(product.getId());
         redirect.addFlashAttribute("success", "Removed product successfully!");
-        return "redirect:/product";
+        return "redirect:/delete";
     }
     }
 

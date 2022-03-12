@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1466be9-3c01-4ac4-9b78-a0d7271bde94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/ung_dung_quan_ly_khach_hang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/resources/templates/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/resources/templates/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/Controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/UngDungQuanLyKhachHangApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codegym/ung_dung_quan_ly_khach_hang/UngDungQuanLyKhachHangApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="25webh2UUgDgWz4PrGCPCAy4SDN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../bai_1_quan_li_khach_hang_jpa/bai_1_quan_li_khach_hang_jpa" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UngDungQuanLyKhachHangApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ung_dung_quan_ly_khach_hang.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codegym.ung_dung_quan_ly_khach_hang.UngDungQuanLyKhachHangApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1466be9-3c01-4ac4-9b78-a0d7271bde94" name="Default Changelist" comment="" />
+      <created>1646442648941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646442648941</updated>
+      <workItem from="1646442657224" duration="6058000" />
+      <workItem from="1646636548092" duration="2364000" />
+      <workItem from="1646639176659" duration="1645000" />
+      <workItem from="1646650226234" duration="1384000" />
+      <workItem from="1646651869171" duration="2481000" />
+      <workItem from="1647091863569" duration="1959000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1646650879927">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1646650879927" />
+    <state x="275" y="22" width="798" height="684" key="#Intentions" timestamp="1646449707581">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" width="798" height="684" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1646449707581" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646639451680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1646639451680" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1647093663538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1647093663538" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1646657015165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1646657015165" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1646657015165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1646657015165" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1646657015165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1646657015165" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1646657015165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1646657015165" />
+    <state width="1323" height="2" key="GridCell.Tab.1.bottom" timestamp="1646657015166">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1646657015166" />
+    <state width="1323" height="2" key="GridCell.Tab.1.center" timestamp="1646657015165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1646657015165" />
+    <state width="1323" height="2" key="GridCell.Tab.1.left" timestamp="1646657015165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1646657015165" />
+    <state width="1323" height="2" key="GridCell.Tab.1.right" timestamp="1646657015166">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1646657015166" />
+    <state x="65" y="24" key="new project wizard" timestamp="1646651405188">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1646651405188" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1646651111696">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1646651111696" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ung_dung_quan_ly_khach_hang$UngDungQuanLyKhachHangApplication.ic" NAME="UngDungQuanLyKhachHangApplication Coverage Results" MODIFIED="1646639339019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

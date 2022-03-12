@@ -7,38 +7,31 @@ import javax.persistence.Id;
 
 @Entity
 public class Customer {
-
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
-    private long id;
-    private String dateOfBirth;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
     private String firstName;
     private String lastName;
 
     public Customer() {
     }
 
-    public Customer(long id, String dateOfBirth, String firstName, String lastName) {
+    public Customer(Long id, String firstName, String lastName) {
         this.id = id;
-        this.dateOfBirth = dateOfBirth;
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    @Override
+    public String toString() {
+        return String.format("Customer[id=%d, firstName='%s', lastName='%s']", id, firstName, lastName);
+    }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getDateOfBirth() {
-        return dateOfBirth;
-    }
-
-    public void setDateOfBirth(String dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
     }
 
     public String getFirstName() {
@@ -57,4 +50,3 @@ public class Customer {
         this.lastName = lastName;
     }
 }
-

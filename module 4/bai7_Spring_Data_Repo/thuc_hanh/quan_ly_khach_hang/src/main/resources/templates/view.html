@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>View blog</title>
+</head>
+<body>
+<h1>View Customer</h1>
+<p>
+    <a href="/">Customer list</a>
+</p>
+<table>
+    <tr>
+        <td>ID</td>
+        <td>th:text="${customer.id}"></td>
+    </tr>
+    <tr>
+        <td>First name</td>
+        <td>th:text="${customer.firstName}"></td>
+    </tr>
+    <tr>
+        <td>Last name</td>
+        <td>th:text="${customer.lastName}"</td>
+    </tr>
+    <tr>
+        <td>Date Of Birth</td>
+        <td>th:text="${customer.dateOfBirth}"</td>
+</table>
+</body>
+</html>

@@ -2,41 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1466be9-3c01-4ac4-9b78-a0d7271bde94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/java/com/codegym/tao_dung_dung_blog/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/java/com/codegym/tao_dung_dung_blog/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/java/com/codegym/tao_dung_dung_blog/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_ung_dung_blog/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/ung_dung_quan_ly_khach_hang.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/com/codegym/quan_ly_khach_hang/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/resources/templates/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/resources/templates/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/resources/templates/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/Controller/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/ServletInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/UngDungQuanLyKhachHangApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/model/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/repository/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ung_dung_quan_ly_khach_hang/service/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codegym/ung_dung_quan_ly_khach_hang/UngDungQuanLyKhachHangApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/java/com/codegym/tao_ung_dung_blog/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/java/com/codegym/tao_ung_dung_blog/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../bai_1_quan_li_khach_hang_jpa/bai_1_quan_li_khach_hang_jpa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bai_tap/tao_ung_dung_blog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -109,7 +90,9 @@
       <workItem from="1646639176659" duration="1645000" />
       <workItem from="1646650226234" duration="1384000" />
       <workItem from="1646651869171" duration="2481000" />
-      <workItem from="1647091863569" duration="1959000" />
+      <workItem from="1647091863569" duration="1961000" />
+      <workItem from="1647129693042" duration="876000" />
+      <workItem from="1647130685052" duration="816000" />
     </task>
     <servers />
   </component>
@@ -129,10 +112,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1646639451680" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1647093663538">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1647130909781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1647093663538" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1647130909781" />
     <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1646657015165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

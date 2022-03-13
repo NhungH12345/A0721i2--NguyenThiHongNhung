@@ -1,19 +1,19 @@
-package com.codegym.tao_ung_dung_blog.model;
+package com.codegym.tao_dung_dung_blog.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Table;
 import javax.persistence.*;
+
 @Entity
 public class Blog {
     @Id
-        @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String title;
     private String content;
     private String datecreate;
 
+    @ManyToOne
+    @JoinColumn(name = "id")
+    private Category category;
     public Blog() {
     }
 
@@ -44,7 +44,7 @@ public class Blog {
         return content;
     }
 
-    public void setContent(String content) {
+    public void setBody(String content) {
         this.content = content;
     }
 
@@ -54,5 +54,12 @@ public class Blog {
 
     public void setDatecreate(String datecreate) {
         this.datecreate = datecreate;
+    }
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
     }
 }

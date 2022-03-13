@@ -22,11 +22,19 @@
         </tr>
         <tr>
             <td>Content:</td>
-            <td><input type="text" th:field="*{content}"></td>
+            <td><textarea th:field="*{content}"></textarea></td>
         </tr>
         <tr>
-            <td>Date : </td>
-            <td><input type="text" th:field="*{datecreate}"></td>
+            <td>Date Create: </td>
+            <td><input type="date" th:field="*{datecreate}"></td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td><select>
+                <option>th:field="*{category}"/>option>
+            </select>
+            </td>
+
         </tr>
         <tr>
             <td><input type="submit" value="update blog"></td>

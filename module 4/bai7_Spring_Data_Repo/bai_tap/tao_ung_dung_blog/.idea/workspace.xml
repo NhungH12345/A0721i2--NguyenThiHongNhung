@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f433b6d-7fd8-47c2-a87e-ff57fe83a5bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/java/com/codegym/tao_ung_dung_blog/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/java/com/codegym/tao_ung_dung_blog/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thuc_hanh/ung_dung_quan_ly_khach_hang/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="25xP5X2DJGat1z8xtNlojluaCk7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TaoUngDungBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tao_ung_dung_blog.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codegym.tao_ung_dung_blog.TaoUngDungBlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f433b6d-7fd8-47c2-a87e-ff57fe83a5bd" name="Default Changelist" comment="" />
+      <created>1646465581590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646465581590</updated>
+      <workItem from="1646465589429" duration="4825000" />
+      <workItem from="1646653131771" duration="2940000" />
+      <workItem from="1646807493650" duration="572000" />
+      <workItem from="1646814918524" duration="2591000" />
+      <workItem from="1646823814450" duration="5528000" />
+      <workItem from="1646876024554" duration="2496000" />
+      <workItem from="1646901225971" duration="4417000" />
+      <workItem from="1646918960275" duration="2723000" />
+      <workItem from="1647007269622" duration="1268000" />
+      <workItem from="1647091658942" duration="784000" />
+      <workItem from="1647130205089" duration="339000" />
+      <workItem from="1647130914289" duration="242000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="582" y="255" key="#Assign_Data_Sources" timestamp="1646466083195">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="582" y="255" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1646466083195" />
+    <state x="309" y="42" key="#Inspections" timestamp="1646467986450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1646467986450" />
+    <state x="146" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1646470162604">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="146" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1646470162604" />
+    <state x="446" y="232" width="476" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1646901619577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="446" y="232" width="476" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1646901619577" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1646467155914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1646467155914" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1647131088986">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1647131088986" />
+    <state width="639" height="260" key="GridCell.Tab.0.bottom" timestamp="1647008553990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="260" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1647008553990" />
+    <state width="639" height="260" key="GridCell.Tab.0.center" timestamp="1647008553990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="260" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1647008553990" />
+    <state width="639" height="260" key="GridCell.Tab.0.left" timestamp="1647008553990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="260" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1647008553990" />
+    <state width="639" height="260" key="GridCell.Tab.0.right" timestamp="1647008553990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="260" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1647008553990" />
+    <state width="639" height="260" key="GridCell.Tab.1.bottom" timestamp="1647008553990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="260" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1647008553990" />
+    <state width="639" height="260" key="GridCell.Tab.1.center" timestamp="1647008553990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="260" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1647008553990" />
+    <state width="639" height="260" key="GridCell.Tab.1.left" timestamp="1647008553990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="260" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1647008553990" />
+    <state width="639" height="260" key="GridCell.Tab.1.right" timestamp="1647008553990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="639" height="260" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1647008553990" />
+    <state x="294" y="10" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1647007649445">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="294" y="10" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1647007649445" />
+    <state x="65" y="24" key="new project wizard" timestamp="1647131101952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1647131101952" />
+    <state x="389" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1646469180006">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1646469180006" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1646816853625">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1646816853625" />
+  </component>
+</project>

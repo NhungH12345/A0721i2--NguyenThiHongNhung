@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1466be9-3c01-4ac4-9b78-a0d7271bde94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/java/com/codegym/tao_dung_dung_blog/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/java/com/codegym/tao_dung_dung_blog/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/java/com/codegym/tao_dung_dung_blog/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/resources/templates/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/resources/templates/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/resources/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_ung_dung_blog/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/java/com/codegym/tao_ung_dung_blog/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/java/com/codegym/tao_ung_dung_blog/model/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6_JPA/bai_tap/tao_ung_dung_blog/src/main/resources/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

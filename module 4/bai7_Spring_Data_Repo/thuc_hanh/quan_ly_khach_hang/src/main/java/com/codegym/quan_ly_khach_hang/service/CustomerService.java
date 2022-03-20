@@ -3,6 +3,8 @@ package com.codegym.quan_ly_khach_hang.service;
 import com.codegym.quan_ly_khach_hang.model.Customer;
 import com.codegym.quan_ly_khach_hang.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,12 +14,12 @@ public class CustomerService {
     @Autowired
     private CustomerRepository customerRepository;
 
-    public List<Customer> findAll() {
-        return customerRepository.findAll();
+    public Page<Customer> findAll(Pageable pageable) {
+        return customerRepository.findAll(pageable);
     }
 
 
-    public Customer findById(int id) {
+    public Customer findById(Long id) {
         return customerRepository.findById(id).orElse(null);
     }
 
@@ -27,11 +29,13 @@ public class CustomerService {
     }
 
 
-    public void remove(int id) {
+    public void remove(Long id) {
         customerRepository.deleteById(id);
     }
 
-    public List<Customer> findByName(String name) {
-        return customerRepository.findByName(name);
+    public Page<Customer> searchFirstName(String firstName, Pageable pageable) {
+        return customerRepository.searchFirstName(firstName, pageable);
     }
+
 }
+

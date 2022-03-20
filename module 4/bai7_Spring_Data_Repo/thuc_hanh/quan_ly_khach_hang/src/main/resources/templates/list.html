@@ -7,9 +7,9 @@
 <body>
 <a href="/create-customer">Create new customer</a>
 <h3>List Customer</h3>
-<form action="/search-customer" method="get">
+<form>
     <input name="search">
-    <button type="submit">Search By Name</button>
+    <button type="submit">Search</button>
 </form><br>
 <table class="table" border="1">
     <tr>
@@ -31,6 +31,12 @@
         <td><a th:href="@{/view-customer/__${customer.id}__ }">View</a></td>
 
     </tr>
+    <div>
+        <a th:href="@{'/customers'(page=${customers.number - 1})}" th:if="${customers.hasPrevious()}">Previous</a>
+        <span th:text="${customers.number + 1}"></span>/<span th:text="${customers.totalPages}"></span>
+        <a th:href="@{'/customers'(page=${customers.number + 1})}" th:if="${customers.hasNext()}">Next</a>
+    </div>
+
 </table>
 </body>
 </html>

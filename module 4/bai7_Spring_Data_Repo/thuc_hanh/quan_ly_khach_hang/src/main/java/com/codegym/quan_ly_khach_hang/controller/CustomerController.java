@@ -3,21 +3,32 @@ package com.codegym.quan_ly_khach_hang.controller;
 import com.codegym.quan_ly_khach_hang.model.Customer;
 import com.codegym.quan_ly_khach_hang.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class CustomerController {
     @Autowired
     private CustomerService customerService;
 
-    @GetMapping("")
-    public ModelAndView showIndex() {
-        return new ModelAndView("list", "customers", customerService.findAll());
+    @GetMapping("customers")
+    public ModelAndView listCustomers(@RequestParam("search") Optional<String> search, Pageable pageable){
+        Page<Customer> customers;
+        if(search.isPresent()){
+            customers = customerService.searchFirstName(search.get(), pageable);
+        } else {
+            customers = customerService.findAll(pageable);
+        }
+        ModelAndView modelAndView = new ModelAndView("list");
+        modelAndView.addObject("customers", customers);
+        return modelAndView;
     }
 
     @GetMapping("/create-customer")
@@ -37,7 +48,7 @@ public class CustomerController {
     }
 
     @GetMapping("/edit-customer/{id}")
-    public ModelAndView showEditForm(@PathVariable int id) {
+    public ModelAndView showEditForm(@PathVariable Long id) {
         Customer customer = customerService.findById(id);
         if (customer != null) {
             ModelAndView modelAndView = new ModelAndView("edit");
@@ -59,7 +70,7 @@ public class CustomerController {
     }
 
     @GetMapping("/delete-customer/{id}")
-    public ModelAndView showDeleteForm(@PathVariable int id) {
+    public ModelAndView showDeleteForm(@PathVariable Long id) {
         Customer customer = customerService.findById(id);
         if (customer != null) {
             ModelAndView modelAndView = new ModelAndView("delete");
@@ -72,22 +83,22 @@ public class CustomerController {
     }
 
     @PostMapping("delete-customer")
-    public String deleteCustomer(@ModelAttribute("customer") Customer customer, int id) {
+    public String deleteCustomer(@ModelAttribute("customer") Customer customer, long id) {
         customerService.remove(id);
         return "redirect:/";
     }
 
     @GetMapping("/view-customer/{id}")
-    public String viewCustomer(@PathVariable int id, Model model) {
+    public String viewCustomer(@PathVariable long id, Model model) {
         model.addAttribute("customer", customerService.findById(id));
         return "view";
     }
 
-    @GetMapping("search-customer")
-        public String searchByName(@RequestParam("searchName")String name, Model model){
-            List<Customer> customers = customerService.findByName(name);
-            model.addAttribute("customers",customers);
-            return "list";
-    }
+//    @GetMapping("search-customer")
+//        public String findAllByFirstNameContaining(@RequestParam("searchName")String firstName, Model model){
+//            Page<Customer> customers = customerService.findAllByFirstNameContaining(firstName);
+//            model.addAttribute("customers",customers);
+//            return "list";
+//    }
 
 }

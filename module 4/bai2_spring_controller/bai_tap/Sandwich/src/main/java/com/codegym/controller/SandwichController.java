@@ -16,7 +16,7 @@ public class SandwichController {
 
     @PostMapping("/save")
     public ModelAndView Condiment(@RequestParam("condiment") String[] condiment) {
-        if(condiment[0]=="null") {
+        if (condiment[0] == "null") {
             System.out.println("123");
         }
         return new ModelAndView("condiment", "condiment", condiment);

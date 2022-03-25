@@ -3,6 +3,7 @@ package models;
 public class Login {
     private String account;
     private String password;
+
     public Login() {
     }
 

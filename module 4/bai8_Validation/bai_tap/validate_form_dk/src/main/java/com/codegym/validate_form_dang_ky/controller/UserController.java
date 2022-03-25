@@ -12,20 +12,20 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class UserController {
 
-       @GetMapping("/user")
-        public ModelAndView showForm() {
-            ModelAndView modelAndView = new ModelAndView("user/index");
-            modelAndView.addObject("user", new User());
-            return modelAndView;
-        }
-
-        @PostMapping("/validate")
-        public ModelAndView checkValidation(@Validated@ModelAttribute("user") User user, BindingResult bindingResult) {
-            if (bindingResult.hasFieldErrors()) {
-                return new ModelAndView("user/index");
-            }
-            return new ModelAndView("user/result");
-        }
-
-
+    @GetMapping("/user")
+    public ModelAndView showForm() {
+        ModelAndView modelAndView = new ModelAndView("user/index");
+        modelAndView.addObject("user", new User());
+        return modelAndView;
     }
+
+    @PostMapping("/validate")
+    public ModelAndView checkValidation(@Validated @ModelAttribute("user") User user, BindingResult bindingResult) {
+        if (bindingResult.hasFieldErrors()) {
+            return new ModelAndView("user/index");
+        }
+        return new ModelAndView("user/result");
+    }
+
+
+}

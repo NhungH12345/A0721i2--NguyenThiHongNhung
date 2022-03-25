@@ -38,7 +38,7 @@
         <tr>
             <td><form:label path="pagesize">Page size </form:label></td>
             <td><form:select path="pagesize">
-                <form:option value="5" ></form:option>
+                <form:option value="5"></form:option>
                 <form:option value="10"></form:option>
                 <form:option value="25"></form:option>
                 <form:option value="50"></form:option>

@@ -36,6 +36,6 @@ public class CaculatorController {
         model.addAttribute("number1", number1);
         model.addAttribute("number2", number2);
         model.addAttribute("calculator", calculator);
-        return new ModelAndView("index","result",result);
+        return new ModelAndView("index", "result", result);
     }
 }

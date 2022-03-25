@@ -8,13 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-<title>The World Clock</title>
-<style>
-    select {
-        width: 200px;
-        height: 20px;
-    }
-</style>
+    <title>The World Clock</title>
+    <style>
+        select {
+            width: 200px;
+            height: 20px;
+        }
+    </style>
 </head>
 <body>
 <h2>Current Local Times Around the World</h2>

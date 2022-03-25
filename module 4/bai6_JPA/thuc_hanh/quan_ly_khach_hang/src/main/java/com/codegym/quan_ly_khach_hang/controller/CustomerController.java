@@ -32,6 +32,7 @@ public class CustomerController {
         modelAndView.addObject("message", "New customer created successfully");
         return modelAndView;
     }
+
     @GetMapping("/customers")
     public ModelAndView listCustomers() {
         List<Customer> customers = customerService.findAll();
@@ -39,9 +40,10 @@ public class CustomerController {
         modelAndView.addObject("customers", customers);
         return modelAndView;
     }
+
     @GetMapping("/{id}/edit")
     public ModelAndView editCustomers(@PathVariable long id) {
-        return new ModelAndView("edit" , "customer" , customerService.findCustomerById(id));
+        return new ModelAndView("edit", "customer", customerService.findCustomerById(id));
     }
 
     @PostMapping("/edit-customer")

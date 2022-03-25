@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1466be9-3c01-4ac4-9b78-a0d7271bde94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/resources/templates/delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/tao_dung_dung_blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ung_dung_quan_ly_khach_hang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bai_tap/tao_ung_dung_blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,6 +87,7 @@
       <workItem from="1647091863569" duration="1961000" />
       <workItem from="1647129693042" duration="876000" />
       <workItem from="1647130685052" duration="816000" />
+      <workItem from="1647845650965" duration="162000" />
     </task>
     <servers />
   </component>
@@ -99,10 +107,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1646639451680" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1647130909781">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1647845768700">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1647130909781" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1647845768700" />
     <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1646657015165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -135,10 +143,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1646657015166" />
-    <state x="65" y="24" key="new project wizard" timestamp="1646651405188">
+    <state x="65" y="24" key="new project wizard" timestamp="1647845786910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1646651405188" />
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1647845786910" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1646651111696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

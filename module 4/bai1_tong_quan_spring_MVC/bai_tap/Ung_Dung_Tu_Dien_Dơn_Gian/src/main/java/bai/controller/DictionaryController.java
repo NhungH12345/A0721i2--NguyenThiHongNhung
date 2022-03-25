@@ -9,4 +9,4 @@ public class DictionaryController {
     public String getDictionary() {
         return "index";
     }
-    }
+}

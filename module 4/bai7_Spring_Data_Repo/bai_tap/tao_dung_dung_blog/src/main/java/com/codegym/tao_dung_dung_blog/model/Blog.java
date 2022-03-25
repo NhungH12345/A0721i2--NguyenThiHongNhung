@@ -14,6 +14,7 @@ public class Blog {
     @ManyToOne
     @JoinColumn(name = "id")
     private Category category;
+
     public Blog() {
     }
 
@@ -55,6 +56,7 @@ public class Blog {
     public void setDatecreate(String datecreate) {
         this.datecreate = datecreate;
     }
+
     public Category getCategory() {
         return category;
     }

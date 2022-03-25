@@ -7,13 +7,14 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
+
 @Component
 public class User {
     @NotEmpty(message = "Khong duoc de trong")
-    @Size(min = 5, max = 45, message ="ten phai tu 5 den 45 ki tu" )
+    @Size(min = 5, max = 45, message = "ten phai tu 5 den 45 ki tu")
     private String firstname;
     @NotEmpty(message = "Khong duoc de trong")
-    @Size(min = 5, max = 45, message ="ten phai tu 5 den 45 ki tu" )
+    @Size(min = 5, max = 45, message = "ten phai tu 5 den 45 ki tu")
     private String lastname;
     @NotEmpty(message = "Phone Number is invalid")
     private String phonenumber;
@@ -31,7 +32,7 @@ public class User {
         this.phonenumber = phonenumber;
         this.age = age;
         this.email = email;
-}
+    }
 
     public String getFirstname() {
         return firstname;

@@ -8,6 +8,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 @Service
 public class CustomerService {
     @Autowired
@@ -25,6 +26,7 @@ public class CustomerService {
     public void delete(Long id) {
         customerRepository.deleteById(id);
     }
+
     public Customer findCustomerById(Long id) {
         return customerRepository.findById(id).orElse(null);
     }

@@ -1,17 +1,18 @@
 package com.codegym.service;
-    import com.codegym.model.Product;
 
-    import java.util.List;
+import com.codegym.model.Product;
 
-    public interface IProductService {
-        List<Product> findAll();
+import java.util.List;
 
-        void save(Product product);
+public interface IProductService {
+    List<Product> findAll();
 
-        Product findById(int id);
+    void save(Product product);
 
-        void update(int id, Product product);
+    Product findById(int id);
 
-        void remove(int id);
+    void update(int id, Product product);
 
-    }
+    void remove(int id);
+
+}

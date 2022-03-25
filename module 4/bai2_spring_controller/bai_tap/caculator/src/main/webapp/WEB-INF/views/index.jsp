@@ -7,20 +7,20 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>Simple Calculator</title>
-  </head>
-  <body>
-  <h1>Calculator</h1>
-  <form action="calculator" method="post">
+</head>
+<body>
+<h1>Calculator</h1>
+<form action="calculator" method="post">
     <input type="text" name="number1" value="${number1}">
     <input type="text" name="number2" value="${number2}">
     <br>
-      <input type="submit" name="calculator" value="Addition(+)">
-      <input type="submit" name="calculator" value="Subtraction(-)">
-      <input type="submit" name="calculator" value="Multiplication(X)">
-      <input type="submit" name="calculator" value="Division(/)">
-  </form>
-  <h2> ${calculator} ${result}</h2>
-  </body>
+    <input type="submit" name="calculator" value="Addition(+)">
+    <input type="submit" name="calculator" value="Subtraction(-)">
+    <input type="submit" name="calculator" value="Multiplication(X)">
+    <input type="submit" name="calculator" value="Division(/)">
+</form>
+<h2> ${calculator} ${result}</h2>
+</body>
 </html>

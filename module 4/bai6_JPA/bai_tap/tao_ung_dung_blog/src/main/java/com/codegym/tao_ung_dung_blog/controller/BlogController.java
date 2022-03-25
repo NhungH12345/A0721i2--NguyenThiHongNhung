@@ -30,6 +30,7 @@ public class BlogController {
         modelAndView.addObject("message", "New blog created successfully");
         return modelAndView;
     }
+
     @GetMapping("/blogs")
     public ModelAndView listBlog() {
         List<Blog> blogs = blogService.findAll();
@@ -37,10 +38,12 @@ public class BlogController {
         modelAndView.addObject("blogs", blogs);
         return modelAndView;
     }
+
     @GetMapping("/{id}/edit")
     public ModelAndView editBlog(@PathVariable long id) {
-        return new ModelAndView("edit" , "blog" , blogService.findBlogById(id));
+        return new ModelAndView("edit", "blog", blogService.findBlogById(id));
     }
+
     @PostMapping("/edit-customer")
     public ModelAndView updateBlog(@ModelAttribute("blog") Blog blog) {
         blogService.saveBlog(blog);

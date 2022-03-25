@@ -5,6 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -17,10 +18,12 @@ public class EmailController {
     public EmailController() {
         pattern = Pattern.compile(EMAIL_REGEX);
     }
+
     @GetMapping("/")
     String getIndex() {
         return "index";
     }
+
     @PostMapping("/validate")
     String validateEmail(@RequestParam("email") String email, Model model) {
         boolean isValid = this.validate(email);

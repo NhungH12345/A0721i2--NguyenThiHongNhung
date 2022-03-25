@@ -7,28 +7,28 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  <center>
-  <h1>Dictionary</h1>
-  <form method="get" action="/index">
-    <div>
-      <p>Dictionary information</p>
-      <table>
-        <tr>
-          <td>Dictionary:</td>
-          <td><input type="text" name="key" id="key"></td>
-        </tr>
-        <tr>
-          <td>
-            <button>Search></button>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </form>
-  </center>
-  </body>
+</head>
+<body>
+<center>
+    <h1>Dictionary</h1>
+    <form method="get" action="/index">
+        <div>
+            <p>Dictionary information</p>
+            <table>
+                <tr>
+                    <td>Dictionary:</td>
+                    <td><input type="text" name="key" id="key"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Search></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</center>
+</body>
 </html>

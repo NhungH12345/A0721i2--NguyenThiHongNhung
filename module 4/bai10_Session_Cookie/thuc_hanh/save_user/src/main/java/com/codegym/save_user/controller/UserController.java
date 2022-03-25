@@ -28,6 +28,7 @@ public class UserController {
         model.addAttribute("cookieValue", cookie);
         return "/login";
     }
+
     @PostMapping("/dologin")
     public String doLogin(@ModelAttribute("user") User user, Model model, @CookieValue(value = "setUser", defaultValue = "") String setUser,
                           HttpServletResponse response, HttpServletRequest request) {

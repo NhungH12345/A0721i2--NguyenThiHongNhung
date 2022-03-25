@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/create-customer">Create new customer</a>
+<h3>List Customer</h3>
+<form>
+    <input name="search">
+    <button type="submit">Search</button>
+</form>
+<br>
+<table class="table" border="1">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Birthday</th>
+        <th>Gender</th>
+        <th>Card</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Address</th>
+    </tr>
+    <tr th:each="customer: ${customers}">
+        <td th:text="${customer.id}"></td>
+        <td th:text="${customer.name}"></td>
+        <td th:text="${customer.birthday}"></td>
+        <td th:text="${customer.gender}"></td>
+        <td th:text="${customer.card}"></td>
+        <td th:text="${customer.phone}"></td>
+        <td th:text="${customer.email}"></td>
+        <td th:text="${customer.address}"></td>
+        <td><a th:href="@{/edit-customer/__${customer.id}__ }">Edit</a></td>-->
+        <td><a th:href="@{/delete-customer/__${customer.id}__ }">Delete</a></td>-->
+        <td><a th:href="@{/view-customer/__${customer.id}__ }">View</a></td>-->
+
+    </tr>
+
+<!--    <div>-->
+<!--    <   <a th:href="@{'/customers'(page=${customers.number - 1})}" th:if="${customers.hasPrevious()}">Previous</a>-->
+<!--        <span th:text="${customers.number + 1}"></span>/<span th:text="${customers.totalPages}"></span>-->
+<!--        <a th:href="@{'/customers'(page=${customers.number + 1})}" th:if="${customers.hasNext()}">Next</a>-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        <a th:href="@{'/'(page=${customers.number - 1}, nameCus=${nameCus})}" th:if="${customers.hasPrevious()}">Previous</a>-->
+<!--        &lt;!&ndash;    <span th:text="${customers.number + 1}"></span>/<span th:text="${customers.totalPages}"></span>&ndash;&gt;-->
+<!--        <th:block th:each="i: ${#numbers.sequence(0, 1)}"  th:if="${customers.number < customers.totalPages - 1}">-->
+<!--            <a th:href="@{'/'(page=${customers.number + i}, nameCus=${nameCus})}" th:text="${customers.number + i +1}"></a>-->
+<!--        </th:block>-->
+<!--        <a th:href="@{'/'(page=${customers.number + 1}, nameCus=${nameCus})}" th:if="${customers.hasNext()}">Next</a>-->
+<!--    </div>-->
+    
+</table>
+</body>
+</html>

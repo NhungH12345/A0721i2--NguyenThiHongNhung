@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ede2ac6a-0635-4844-947b-c30b1d7c97c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../module 2/src/bai10_Danh_Sach/bai_tap/ArrayList/ArrayList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module 2/src/bai11_DSA_Stack_queue/bai11_DSA_Stack_queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module 2/src/bai15_Xu_Ly_Ngoai_Le_Va_Debug/thuc_hanh/Debug_Ung_Dung_Java/Debug_Ung_Dung_Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module 2/src/bai16_IO_Text_File/bai16_IO_Text_File.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module 2/src/bai17_IO_Binary_File/.idea/bai17_IO_Binary_File.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module 2/src/bai7_Abstract_Class_Interface/bai_tap/Trien_Khai_Interface_Colorable/Trien_Khai_Interface_Colorable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Casestudy_Database/.idea/Casestudy_Database.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module 4/bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module 4/bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module 4/bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module 4/bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="270Nca2hKeNvLfAjYb61QNlsGqj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ede2ac6a-0635-4844-947b-c30b1d7c97c2" name="Default Changelist" comment="" />
+      <created>1648453123413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648453123413</updated>
+      <workItem from="1648453124626" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

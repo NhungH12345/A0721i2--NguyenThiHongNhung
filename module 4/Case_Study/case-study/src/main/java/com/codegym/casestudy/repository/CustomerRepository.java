@@ -11,6 +11,6 @@ import org.springframework.stereotype.Repository;
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
     Page<Customer> findAll(Pageable pageable);
     @Query(value = "select * from customer where customer_name like %?%", nativeQuery = true)
-    Page<Customer> searchCustomer_Name(String customer_name, Pageable pageable);
+    Page<Customer> findAllByNameContaining(String name, Pageable pageable);
 
 }

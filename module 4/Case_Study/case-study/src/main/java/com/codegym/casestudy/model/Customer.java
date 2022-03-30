@@ -7,37 +7,32 @@ import java.util.Date;
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String name;
-    private String birthday;
-    private boolean gender;
-    private String card;
-    private String phone;
+    private Date birthday;
+    private String gender;
     private String email;
+    private String phone;
     private String address;
-    @ManyToOne(targetEntity = Customer_type.class)
-    private Customer_type customer_type;
-
-
+    @ManyToOne(targetEntity = CustomerType.class)
+    private CustomerType customerType;
     public Customer() {
     }
-
-    public Customer(long id, String name, String birthday, boolean gender, String card, String phone, String email, String address) {
+    public Customer(Long id, String name, Date birthday, String gender, String email, String phone, String address) {
         this.id = id;
         this.name = name;
         this.birthday = birthday;
         this.gender = gender;
-        this.card = card;
-        this.phone = phone;
         this.email = email;
+        this.phone = phone;
         this.address = address;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -49,36 +44,20 @@ public class Customer {
         this.name = name;
     }
 
-    public String getBirthday() {
+    public Date getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(String birthday) {
+    public void setBirthday(Date birthday) {
         this.birthday = birthday;
     }
 
-    public boolean isGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(boolean gender) {
+    public void setGender(String gender) {
         this.gender = gender;
-    }
-
-    public String getCard() {
-        return card;
-    }
-
-    public void setCard(String card) {
-        this.card = card;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
     }
 
     public String getEmail() {
@@ -89,6 +68,14 @@ public class Customer {
         this.email = email;
     }
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
     public String getAddress() {
         return address;
     }
@@ -96,5 +83,12 @@ public class Customer {
     public void setAddress(String address) {
         this.address = address;
     }
-}
 
+    public CustomerType getCustomerType() {
+        return customerType;
+    }
+
+    public void setCustomerType(CustomerType customerType) {
+        this.customerType = customerType;
+    }
+}

@@ -2,7 +2,6 @@ package casestudy.model.Customer;
 
 public class Customer {
     private int id;
-    private int id_card;
     private String name;
     private String birthday;
     private String gender;
@@ -11,14 +10,11 @@ public class Customer {
     private String email;
     private String address;
     private int customerType_id;
-    private String customerTypeName;
-
-    public Customer() {
+    public Customer(String name, String birthday, String gender, String identify_number, String phone_number, String email, String address, String customerType_id) {
     }
 
-    public Customer(int id, int id_card, String name, String birthday, String gender, String identify_number, String phone_number, String email, String address, int customerType_id, String customerTypeName) {
+    public Customer(String name, String birthday, String gender, String identify_number, String phone_number, String email, String address, int customerType_id) {
         this.id = id;
-        this.id_card = id_card;
         this.name = name;
         this.birthday = birthday;
         this.gender = gender;
@@ -27,7 +23,6 @@ public class Customer {
         this.email = email;
         this.address = address;
         this.customerType_id = customerType_id;
-        this.customerTypeName = customerTypeName;
     }
 
     public int getId() {
@@ -36,14 +31,6 @@ public class Customer {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public int getId_card() {
-        return id_card;
-    }
-
-    public void setId_card(int id_card) {
-        this.id_card = id_card;
     }
 
     public String getName() {
@@ -110,11 +97,5 @@ public class Customer {
         this.customerType_id = customerType_id;
     }
 
-    public String getCustomerTypeName() {
-        return customerTypeName;
-    }
 
-    public void setCustomerTypeName(String customerTypeName) {
-        this.customerTypeName = customerTypeName;
-    }
 }

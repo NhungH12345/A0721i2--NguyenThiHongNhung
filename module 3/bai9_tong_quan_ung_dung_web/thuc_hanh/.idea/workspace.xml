@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fff4acf6-17a5-49cb-a54e-c483a604273d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../module 2/src/bai10_Danh_Sach/bai_tap/ArrayList/ArrayList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 2/src/bai11_DSA_Stack_queue/bai11_DSA_Stack_queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 2/src/bai15_Xu_Ly_Ngoai_Le_Va_Debug/thuc_hanh/Debug_Ung_Dung_Java/Debug_Ung_Dung_Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 2/src/bai16_IO_Text_File/bai16_IO_Text_File.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 2/src/bai17_IO_Binary_File/.idea/bai17_IO_Binary_File.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 2/src/bai7_Abstract_Class_Interface/bai_tap/Trien_Khai_Interface_Colorable/Trien_Khai_Interface_Colorable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/src/main/webapp/n.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Casestudy_Database/.idea/Casestudy_Database.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/Tao_menu_doc/.idea/Tao_menu_doc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai7_thiet_ke_bo_cuc_trang_web/thuc_hanh/tao_menu_ngang/.idea/tao_menu_ngang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai8_bootstrap_co_ban/bai_tap/tao_gallery_don_gian/.idea/tao_gallery_don_gian.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai8_bootstrap_co_ban/thuc_hanh/xay_dung_form_login/.idea/xay_dung_form_login.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/controller/EmployeeControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/CustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/ServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/CustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/impl/CustomerTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/resources/templates/Customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/resources/templates/Employee/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/resources/templates/Employee/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/resources/templates/Service/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/Customer_type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/impl/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/resources/templates/Customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/Case_Study/case-study/src/main/resources/templates/Customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module 4/bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="275K5uh91n50WxHzZEKviINsHMO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bai11_MVC_model/thuc_hanh" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fff4acf6-17a5-49cb-a54e-c483a604273d" name="Default Changelist" comment="" />
+      <created>1648604326934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648604326934</updated>
+      <workItem from="1648604328293" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1648604356255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1648604356255" />
+  </component>
+</project>

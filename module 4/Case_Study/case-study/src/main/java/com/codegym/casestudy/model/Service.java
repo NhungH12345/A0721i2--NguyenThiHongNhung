@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class Service {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
     private String name;
     private int area;
     private double cost;
@@ -24,7 +24,7 @@ public class Service {
     public Service() {
     }
 
-    public Service(Long id, String name, int area, double cost, int max_people, String standard_room, String description, double pool_area, int number_floor) {
+    public Service(int id, String name, int area, double cost, int max_people, String standard_room, String description, double pool_area, int number_floor) {
         this.id = id;
         this.name = name;
         this.area = area;
@@ -36,11 +36,11 @@ public class Service {
         this.number_floor = number_floor;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

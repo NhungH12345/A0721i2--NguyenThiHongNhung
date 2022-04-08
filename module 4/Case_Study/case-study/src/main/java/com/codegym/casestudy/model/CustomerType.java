@@ -1,6 +1,8 @@
 package com.codegym.casestudy.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 import java.util.Set;
 
 @Entity
@@ -8,6 +10,8 @@ public class CustomerType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @NotEmpty(message = "Khong duoc de trong")
+    @Size(min = 6, max = 50, message ="ten phai tu 6 den 50 ki tu" )
     private String name;
     @OneToMany(mappedBy = "id")
     private Set<Customer> customers;

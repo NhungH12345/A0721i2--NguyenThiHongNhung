@@ -12,29 +12,25 @@
 </head>
 <body>
 <h2>Add new product</h2>
-<form action="/product?action=save" method="post">
-    <input type="hidden" name="id" value="${product.id}">
-    <div>
-        Name: <br><input name="name" value="${product.name}">
-    </div>
-    <div>
-        Price: <br><input name="price" value="${product.price}">
-    </div>
-    <div>
-        Quantity: <br><input name="quantity" value="${product.quantity}">
-    </div>
-    <div>
-        Color: <br><input name="color" value="${product.color}">
-    </div>
-    <div>
-        Description: <br><textarea type="text" name="description" value="${product.description}" cols="21" rows="10" ></textarea>
-    </div>
-    <div>
-    Category: <br> <select style="width: 170px" name="category" value="${product.category}">
-        <option selected>Computer</option>
-        <option>Phone</option>
-        <option>Table</option>
-    </select><br> <br>
+<form action="/product" method="post">
+    <input type="hidden" name="action" value="create"/>
+    <label>Name</label><br>
+    <input type="text" name="name"/><br>
+    <label>Price</label><br>
+    <input type="text" name="price"/><br>
+    <label>Quantity</label><br>
+    <input type="text" name="quantity"/><br>
+    <label>Color</label><br><br>
+    <input type="text" name="color"/><br>
+    <label>Category</label><br>
+    <select name="category">
+        <c:forEach var="category" items="${listCategory}">
+            <option value="${category.id_category}"> ${category.name_category}</option>
+        </c:forEach>
+    </select>
+    <br>
+    <br>
+    <br>
     <button>Create</button>
     <button>Back</button>
     </div>

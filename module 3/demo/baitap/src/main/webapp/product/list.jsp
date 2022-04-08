@@ -24,8 +24,15 @@
 </head>
 <body>
 <center>
-    <h1>Add new proiect</h1>
-    <a href="/product/create.jsp">Create Product</a>
+    <h1>Product List</h1>
+    <h2>
+        <a href="/product?action=create">Add new product</a>
+    </h2>
+    <form method="get" action="/product">
+        <input type="hidden" name="action" value="search">
+        <input type="text" name="name">
+        <button type="submit">Search</button>
+    </form>
 </center>
 <div align="center">
     <table border="1" cellpadding="5">
@@ -36,21 +43,22 @@
         <th>Quantity</th>
         <th>Color</th>
         <th>Category</th>
-        <th>Actions</th>
+        <th>Action</th>
         </thead>
         <tbody>
-        <c:forEach items="${products}" var="p">
+        <c:forEach items="${listProduct}" var="product">
             <tr>
-                <td>${p.id}</td>
-                <td>${p.name}</td>
-                <td>${p.price}</td>
-                <td>${p.quantity}</td>
-                <td>${p.color}</td>
-                <td>${p.category}</td>
+                <td>${product.id}</td>
+                <td>${product.name}</td>
+                <td>${product.price}</td>
+                <td>${product.quantity}</td>
+                <td>${product.color}</td>
+                <td>${product.category}</td>
+                <td>${product.getCategory().getName_category()}"/></td>
 
                 <td>
-                    <a href="/product?action=edit&id=${p.id}">Edit</a>
-                    <a href="/product?action=delete&id=${p.id}">Delete</a>
+                    <a href="/product?action=edit&id=${product.id}">Edit</a>
+                    <a href="/product?action=delete&id=${product.id}">Delete</a>
                 </td>
             </tr>
         </c:forEach>

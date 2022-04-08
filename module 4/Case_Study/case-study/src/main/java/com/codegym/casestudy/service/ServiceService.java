@@ -2,15 +2,19 @@ package com.codegym.casestudy.service;
 
 
 import com.codegym.casestudy.model.Service;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
-import java.util.List;
+import java.util.Optional;
 
 public interface ServiceService {
-    List<Service> findAll();
-    void saveService(com.codegym.casestudy.model.Service service);//pt thêm mơi và update(tự hieu gióng id la update)
-    void deleteService(Long id);
-    com.codegym.casestudy.model.Service findServiceById(Long id);
+    Page<Service> findAll(Pageable pageable);
+    void saveService(Service service);
+    void deleteService(int id);
+    Optional<Service> findServiceById(int id);
+    Page<Service> findAllByNameContaining(String name, Pageable pageable);
 
+    Object findAll();
 }
 
 

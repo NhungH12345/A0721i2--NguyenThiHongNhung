@@ -1,75 +1,89 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:replace="home.html">
     <meta charset="UTF-8">
     <title>Create customer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity=
+            "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 </head>
 <body>
 <h1>Create customer</h1>
 <p>
-    <a class="btn btn-default" href="/home/customer">Home</a>
+    <a href="/">home</a>
 </p>
-<form th:action="@{create}" th:object="${customers}" method="post">
-    <table>
-        <tr>
-            <td> name:</td>
-            <td><input  type="text" th:field="*{name}"/></td>
-            <div>
-                <td class="text-danger" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<div class="col-5">
+    <form th:action="@{create}" method="post" th:object="${customer}">
+        <div class="container">
+            <div class="form-group">
+                <label>Name: </label>
+                <input class="form-control" type="text" th:field="*{name}">
             </div>
-        </tr>
-        <tr>
-            <td>Address:</td>
-            <td><input  type="text" th:field="*{address}"/></td>
             <div>
-                <td class="text-danger" th:if="${#fields.hasErrors('address')}" th:errors="*{address}">Address Error</td>
+                <p class="text-danger" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</p>
             </div>
-        </tr>
-        <tr>
-            <td>Birthday:</td>
-            <td><input  type="text" th:field="*{birthday}"/></td>
+        </div>
+        <div class="container">
+            <div class="form-group">
+                <label>Birthday: </label>
+                <input class="form-control" type="date" th:field="*{birthday}">
+            </div>
             <div>
-                <td class="text-danger" th:if="${#fields.hasErrors('birthday')}" th:errors="*{birthday}">Birthday Error</td>
+                <p class="text-danger" th:if="${#fields.hasErrors('birthday')}" th:errors="*{birthday}">Birthday Error</p>
             </div>
-        </tr>
-        <tr>
-            <td>Email:</td>
-            <td><input  type="text" th:field="*{email}"/></td>
+        </div>
+        <div class="container">
+            <div class="form-group">
+                <label>Gender: </label>
+                <input class="form-control" type="text" th:field="*{gender}">
+            </div>
             <div>
-                <td class="text-danger" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</td>
+                <p class="text-danger" th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}">Gender Error</p>
             </div>
-        </tr>
-        <tr>
-            <td>Phone:</td>
-            <td><input  type="text" th:field="*{phone}"/></td>
+        </div>
+        <div class="container">
+            <div class="form-group">
+                <label>Email: </label>
+                <input class="form-control" type="text" th:field="*{email}">
+            </div>
             <div>
-                <td class="text-danger" th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}">Phone Error</td>
+                <p class="text-danger" th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}">Gender Error</p>
             </div>
-        </tr>
-        <tr>
-            <td>CustomerType</td>
-            <td><select th:field="${customers.customerType}">//${customer.province}
-                <option th:each="customerType:${customerTypes}" th:text="${customerType.name}" th:value="${customerType.id}"></option>
-            </select>
-            </td>
-
-        </tr>
-        <tr>
-            <td></td>
-            <td><input type="submit" value="Create customer"></td>
-        </tr>
-    </table>
-</form>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+        </div>
+        <div class="container">
+            <div class="form-group">
+                <label>Phone: </label>
+                <input class="form-control" type="text" th:field="*{phone}">
+            </div>
+            <div>
+                <p class="text-danger" th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}">Phone Error</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-group">
+                <label>Address: </label>
+                <input class="form-control" type="text" th:field="*{address}">
+            </div>
+            <div>
+                <p class="text-danger" th:if="${#fields.hasErrors('address')}" th:errors="*{address}">Address Error</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-group">
+                <label>CustomerType: </label>
+                <select  th:field="*{customerType}">
+                    <option th:each="customerType : ${customerTypes}" th:text="${customerType.name}" th:value="${customerType.id}"></option>
+                </select>
+            </div>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Create">
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>

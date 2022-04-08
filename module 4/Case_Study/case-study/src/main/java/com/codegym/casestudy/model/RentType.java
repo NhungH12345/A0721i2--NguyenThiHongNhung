@@ -7,7 +7,7 @@ import java.util.Set;
 public class RentType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
     private String name;
     private double cost;
     @OneToMany(mappedBy = "id")
@@ -16,17 +16,17 @@ public class RentType {
     public RentType() {
     }
 
-    public RentType(Long id, String name, double cost) {
+    public RentType(int id, String name, double cost) {
         this.id = id;
         this.name = name;
         this.cost = cost;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

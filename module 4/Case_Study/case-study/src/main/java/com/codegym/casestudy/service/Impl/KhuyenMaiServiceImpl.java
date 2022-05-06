@@ -1,8 +1,8 @@
-package com.example.thi_spring.service.Impl;
+package com.codegym.casestudy.service.Impl;
 
-import com.example.thi_spring.model.KhuyenMai;
-import com.example.thi_spring.repository.KhuyenMaiRespository;
-import com.example.thi_spring.service.KhuyenMaiService;
+import com.codegym.casestudy.model.KhuyenMai;
+import com.codegym.casestudy.repository.KhuyenMaiRespository;
+import com.codegym.casestudy.service.KhuyenMaiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

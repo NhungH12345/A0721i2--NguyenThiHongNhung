@@ -1,6 +1,6 @@
-package com.example.thi_spring.service;
+package com.codegym.casestudy.service;
 
-import com.example.thi_spring.model.KhuyenMai;
+import com.codegym.casestudy.model.KhuyenMai;
 
 import java.util.List;
 import java.util.Optional;

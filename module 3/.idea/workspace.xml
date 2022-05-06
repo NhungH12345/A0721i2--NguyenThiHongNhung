@@ -2,19 +2,256 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4e0278-9849-49ea-bac5-3629fee1294b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../module 4/bai3_Data_binding_Form/thuc_hanh/Form_Databinding/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module 4/bai3_Data_binding_Form/thuc_hanh/Form_Databinding/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../customer-management" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi/src/main/java/com/codegym/bai_thi/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi/src/main/java/com/codegym/bai_thi/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi/src/main/java/com/codegym/bai_thi/model/QuestionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi/src/main/java/com/codegym/bai_thi/repository/QuestionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi/src/main/java/com/codegym/bai_thi/repository/QuestionTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi/src/main/java/com/codegym/bai_thi/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi/src/main/java/com/codegym/bai_thi/service/QuestionTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_thi/src/main/resources/templates/nn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/java/com/codegym/do_an/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/java/com/codegym/do_an/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/java/com/codegym/do_an/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/java/com/codegym/do_an/service/Impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/images/404/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/images/home/sach.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/images/product-details/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/images/product-details/new.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/images/product-details/rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/images/product-details/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/images/product-details/similar1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/images/product-details/similar2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/images/product-details/similar3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/images/product-details/similar4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/js/datatables-simple-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/js/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/Admin/homeAdmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/Admin/product/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/Admin/product/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/Admin/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/authentication/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/authentication/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/authentication/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/contact-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/layout/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/layout/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/layout/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/product-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../do_an/src/main/resources/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doantotnghiep/src/main/resources/templates/Product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/controller/KhuyenMaiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/KhuyenMai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/KhuyenMaiRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/Impl/KhuyenMaiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/KhuyenMaiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/.idea/SpringWeb-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/.mvn/wrapper/MavenWrapperDownloader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/database/insertData.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/MajorApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/configuration/GoogleOAuth2SuccessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/configuration/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/controller/CartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/dto/ProductDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/dto/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/global/GlobalData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/model/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/model/CustomUserDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/repository/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/repository/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/service/impl/CustomUserDetailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/java/com/edu/hutech/major/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/images/slide0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/images/slide1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/images/slide2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/productImages/index.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/productImages/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/productImages/ipad-pro-12-select-202003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/productImages/iphone-12-mini-select-2020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/productImages/iphone-se-family-select-2020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/productImages/iphone11-select-2019-family.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/productImages/iphone11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/productImages/macbook-air-space-gray.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/productImages/mbp16touch-space-select-201911.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/static/productImages/spring-data-jpa-diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/adminHome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/categoriesAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/forgotpassword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/orderPlaced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/productsAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/userRoleAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/usersAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/main/resources/templates/viewProduct.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/bin/src/test/java/com/edu/hutech/major/MajorApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/database/insertData.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/MajorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/configuration/GoogleOAuth2SuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/configuration/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/controller/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/dto/ProductDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/global/GlobalData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/model/CustomUserDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/service/impl/CustomUserDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/java/com/edu/hutech/major/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/images/slide0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/images/slide1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/images/slide2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/240248464_1950973708405751_7129661575296854670_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/cóc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/index.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/ipad-pro-12-select-202003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/iphone-12-mini-select-2020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/iphone-se-family-select-2020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/iphone11-select-2019-family.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/iphone11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/macbook-air-space-gray.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/mbp16touch-space-select-201911.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/nâu-đá.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/schua-cacao-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/static/productImages/spring-data-jpa-diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/adminHome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/categoriesAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/forgotpassword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/orderPlaced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/productsAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/userRoleAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/usersAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/main/resources/templates/viewProduct.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringWeb-master/SpringWeb-master/src/test/java/com/edu/hutech/major/MajorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_bai_cuoi_module4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_bai_cuoi_module4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_bai_cuoi_module4/demo" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_bai_cuoi_module4/demo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/Case_Study/case-study/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/controller/ServiceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/CustomerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/RentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/ServiceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/CustomerTypeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/RentTypeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/ServiceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/ServiceTypeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/CustomerTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/RentTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/ServiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/ServiceTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/impl/CustomerTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/impl/RentTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/impl/ServiceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/java/com/codegym/casestudy/service/impl/ServiceTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_thi/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/customer/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_thi/src/main/resources/templates/customer/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_thi/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/customer/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_thi/src/main/resources/templates/customer/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_thi/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/service/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/service/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/service/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/service/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_thi/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/Case_Study/case-study/src/main/resources/templates/service/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/src/main/java/com/codegym/comtroller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle/src/main/java/com/codegym/comtroller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +286,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/email-validate-gradle" />
+    <property name="last_opened_file_path" value="$USER_HOME$/HotelProject" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -68,11 +305,10 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_module_3" />
+        <option name="BASE_DIRECTORY_NAME" value="_module_3" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -131,10 +367,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_module_3" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_module_3" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -216,6 +453,9 @@
       <workItem from="1645182917629" duration="1587000" />
       <workItem from="1645250072666" duration="712000" />
       <workItem from="1645262530514" duration="1185000" />
+      <workItem from="1650101856355" duration="1210000" />
+      <workItem from="1650455553641" duration="788000" />
+      <workItem from="1650618216565" duration="1259000" />
     </task>
     <servers />
   </component>
@@ -223,18 +463,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="0" width="816" height="728" key="#Intentions" timestamp="1641383827535">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="526" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1641383827535" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1645183767353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1645183767353" />
-    <state x="461" y="241" key="#Tomcat_Server" timestamp="1641382654433">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="461" y="241" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1641382654433" />
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645183773458">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -243,18 +475,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="2" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1645183737083" />
-    <state x="129" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640951713612">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1650618250532">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640951713612" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1645263157398">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1645263157398" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1640950209005">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1640950209005" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1650618250532" />
     <state x="65" y="0" key="new project wizard" timestamp="1645263185416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

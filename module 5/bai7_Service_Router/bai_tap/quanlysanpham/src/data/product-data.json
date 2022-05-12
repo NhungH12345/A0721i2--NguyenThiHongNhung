@@ -1,0 +1,23 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "IPhone 1",
+      "price": "323",
+      "description": "95%",
+      "category": "Iphone"
+    },
+    {
+      "id": "2",
+      "name": "oppo",
+      "price": "15",
+      "description": "33"
+    },
+    {
+      "id": "3",
+      "name": "SamSung",
+      "price": "22",
+      "description": "tot"
+    }
+  ]
+}

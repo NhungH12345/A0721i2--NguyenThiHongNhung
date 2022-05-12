@@ -1,0 +1,39 @@
+<table style="width: 800px; text-align: center" class="table">
+  <div class="card border-success">
+    <h2 style="text-align: center" class="card-header bg-success">Update Product</h2>
+  <form [formGroup]="formCreateProduct1" (ngSubmit)="update()">
+    <div hidden class="input-group input-group-sm mb-3">
+      <span class="input-group-text">Id</span>
+      <input type="hidden" [value]="formCreateProduct.id" [(ngModel)]="formCreateProduct.id" type="text" class="form-control"
+             aria-label="Sizing example input" formControlName="id">
+    </div>
+    <p *ngIf="formCreateProduct1.get('id')?.invalid && formCreateProduct1.get('id')?.touched" class="text-danger">Nhap id</p>
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text">Name</span>
+      <input [(ngModel)]="formCreateProduct.name" type="text" class="form-control" aria-label="Sizing example input"
+             formControlName="name">
+    </div>
+    <p *ngIf="formCreateProduct1.get('name')?.invalid && formCreateProduct1.get('name')?.touched" class="text-danger">Nhap name</p>
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text">Price</span>
+      <input [(ngModel)]="formCreateProduct.price" type="text" class="form-control" aria-label="Sizing example input"
+             formControlName="price">
+    </div>
+    <p *ngIf="formCreateProduct1.get('price')?.invalid && formCreateProduct1.get('price')?.touched" class="text-danger">Name price</p>
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text">Description</span>
+      <input [(ngModel)]="formCreateProduct.description" type="text" class="form-control" aria-label="Sizing example input"
+             formControlName="description">
+    </div>
+    <p *ngIf="formCreateProduct1.get('description')?.invalid && formCreateProduct1.get('description')?.touched" class="text-danger">
+      Description sai</p>
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text">Category</span>
+      <select [(ngModel)]="formCreateProduct.category" formControlName="category" id="">
+        <option *ngFor="let item of category" [value]="item.nameCategory">{{item.nameCategory}}</option>
+      </select>
+    </div>
+    <button style="color: black; font-size: 25px" class="bg-success" type="submit" [disabled]="!formCreateProduct1.invalid">Update</button>
+  </form>
+</div>
+</table>

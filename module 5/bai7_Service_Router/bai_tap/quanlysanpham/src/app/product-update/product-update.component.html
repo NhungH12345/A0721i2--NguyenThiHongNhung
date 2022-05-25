@@ -29,8 +29,9 @@
       Description sai</p>
     <div class="input-group input-group-sm mb-3">
       <span class="input-group-text">Category</span>
-      <select [(ngModel)]="formCreateProduct.category" formControlName="category" id="">
-        <option *ngFor="let item of category" [value]="item.nameCategory">{{item.nameCategory}}</option>
+      <select [(ngModel)]="formCreateProduct.category" formControlName="category">
+        <option disabled>Chọn danh mục sản phẩm</option>
+        <option *ngFor="let item of category" [value]="item.id">{{item.nameCategory}}</option>
       </select>
     </div>
     <button style="color: black; font-size: 25px" class="bg-success" type="submit" [disabled]="!formCreateProduct1.invalid">Update</button>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15b83b25-3a23-4f7f-8546-373e7962bb43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/data/nhan-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/model/IAn.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/model/INhan.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/nhan-list/nhan-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/nhan-list/nhan-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/nhan-list/nhan-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/nhan-list/nhan-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/product-delete/product-delete.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/product-delete/product-delete.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/product-delete/product-delete.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/product-delete/product-delete.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/product-edit/product-edit.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/product-edit/product-edit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/product-edit/product-edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai1_tong_quan_spring_MVC/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 4/bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../module 4/bai5_thao_tac_voi_csdl_ORM/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/category/category.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/model/category.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/category/category.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/category/category.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/demothi/src/app/product-edit/product-edit.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/category/category.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/product-create/product-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/product-create/product-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/product-create/product-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/product-create/product-create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/product-list/product-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/product-update/product-update.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/product-update/product-update.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/service/category-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/service/category-service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/service/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/app/service/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/data/category-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/data/product-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/data/product-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../module 5/bai7_Service_Router/bai_tap/quanlysanpham/src/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="29MyK5XnilHgpBWeZDQdkBz96Nn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15b83b25-3a23-4f7f-8546-373e7962bb43" name="Default Changelist" comment="" />
+      <created>1652937181045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652937181045</updated>
+      <workItem from="1652937182339" duration="10000" />
+      <workItem from="1653225994328" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

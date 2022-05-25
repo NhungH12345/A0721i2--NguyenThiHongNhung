@@ -34,4 +34,9 @@ export class ProductServiceService {
   delete(id: number): Observable<IProduct> {
     return this._httpClient.delete<IProduct>(API_URL + '/product/' + id);
   }
+  searchByName(name: string): Observable<IProduct> {
+    // @ts-ignore
+    return this._httpClient.get<IProduct>(API_URL + '/product' + '/' + name);
+  }
+
 }

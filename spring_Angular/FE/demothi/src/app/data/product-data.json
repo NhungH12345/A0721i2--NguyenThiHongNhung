@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "IPhone 1",
+      "price": "119",
+      "description": "95%",
+      "category": {
+        "id": 1,
+        "nameCategory": "IPhone"
+
+    }
+
+    }
+  ],
+  "category": [
+    {
+      "id": 1 ,
+      "nameCategory": "IPhone"
+    }
+  ]
+}

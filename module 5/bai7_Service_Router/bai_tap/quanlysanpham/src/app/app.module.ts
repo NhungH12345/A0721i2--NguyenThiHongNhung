@@ -8,7 +8,7 @@ import {ProductListComponent} from "./product-list/product-list.component";
 import {ProductUpdateComponent} from "./product-update/product-update.component";
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import { CategoryComponent } from './category/category.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +16,7 @@ import { CategoryComponent } from './category/category.component';
     ProductCreateComponent,
     ProductUpdateComponent,
     ProductDeleteComponent,
-    CategoryComponent
+
   ],
   imports: [
     BrowserModule,

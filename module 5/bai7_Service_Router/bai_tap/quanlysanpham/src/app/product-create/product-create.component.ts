@@ -33,7 +33,6 @@ export class ProductCreateComponent implements OnInit {
     })
     this.formCreateProduct = new FormGroup(
       {
-        id: new FormControl('', [Validators.required]),
         name: new FormControl('', [Validators.required]),
         price: new FormControl('', [Validators.required, Validators.min(0)]),
         description: new FormControl('', [Validators.required]),
@@ -45,9 +44,6 @@ export class ProductCreateComponent implements OnInit {
   save() {
     this._service.save(this.formCreateProduct.value).subscribe(() => {
         this._router.navigateByUrl('/product');
-      },
-      error => {
-        console.log("errors");
       },
     );
   }

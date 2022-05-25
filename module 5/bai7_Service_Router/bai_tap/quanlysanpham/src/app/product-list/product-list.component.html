@@ -1,11 +1,17 @@
 <div class="card border-info">
   <h2 style="text-align: center" class="card-header bg-success">List Product</h2>
+<!--  <div class="col-md-6" >-->
+<!--    Filter by Name:-->
+<!--    <input type="text" [(ngModel)]="searchText"-->
+<!--           class="form-control" placeholder="Search By Category" />-->
+<!--  </div>-->
   <div class="card-body">
     <table class="table table-hover table-striped">
     <tr>
       <th>#</th>
       <th>Name</th>
       <th>Price</th>
+      <th>Category</th>
       <th>Description</th>
       <th>Detail</th>
       <th>Update</th>
@@ -16,6 +22,7 @@
       <td>{{i+1}}</td>
       <td>{{item.name}}</td>
       <td>{{item.price}}</td>
+      <td>{{item.category}}</td>
       <td>{{item.description}}</td>
       <td>
         <button class="btn btn-info m-2" [routerLink]="['/product/detail', item.id]">Detail</button>

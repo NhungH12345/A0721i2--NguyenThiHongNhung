@@ -12,6 +12,7 @@ export class ProductListComponent implements OnInit {
   private subscription: Subscription|undefined;
   // @ts-ignore
   products:IProduct[];
+  // searchText: any;
   constructor(
     private _service : ProductServiceService
   ) { }
@@ -24,5 +25,13 @@ export class ProductListComponent implements OnInit {
       console.log("ERRORS");
     });
   }
+
+  // search(): void {
+  //   let term = this.searchText;
+  //   // @ts-ignore
+  //   this.items = this.itemsCopy.filter(function(tag) {
+  //     return tag.name.indexOf(term) >= 0;
+  //   });
+  // }
 
 }

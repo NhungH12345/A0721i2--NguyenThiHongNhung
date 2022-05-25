@@ -3,21 +3,40 @@
     {
       "id": 1,
       "name": "IPhone 1",
-      "price": "323",
+      "price": "119",
       "description": "95%",
-      "category": "Iphone"
+      "category": 1
     },
     {
-      "id": "2",
-      "name": "oppo",
-      "price": "15",
-      "description": "33"
+      "id": 2,
+      "name": "IPhone 1",
+      "price": "119",
+      "description": "95%",
+      "category": 2
     },
     {
-      "id": "3",
-      "name": "SamSung",
-      "price": "22",
-      "description": "tot"
+      "id": 3,
+      "name": "IPhone 1",
+      "price": "119",
+      "description": "95%",
+      "category": 3
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "nameCategory": "Iphone"
+    },
+    {
+      "id": 2,
+      "nameCategory": "Samsung"
+    },
+    {
+      "id": 3,
+      "nameCategory": "Oppo"
+    },{
+      "id": 4,
+      "nameCategory": "Other"
     }
   ]
 }
